@@ -24,10 +24,12 @@ $(function () {
         $bar.click(function () {
             if ($item.hasClass('open')) {
                 /* Close it */
+                ga('send','event','expandtoggle','close',$item.id);
                 $item.removeClass('open');
                 $item.addClass('closed');
             } else {
                 /* Open it */
+                ga('send','event','expandtoggle','open',$item.id);
                 $item.removeClass('closed');
                 $item.addClass('open');
             }
