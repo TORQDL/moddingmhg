@@ -87,18 +87,18 @@
 							move: function(color) {
 							},
 							show: function(color) {
-                                ga('send','event','colorpicker','show',color);
+                                ga('send','event','colorpicker','show',color.toHexString());
 								$("#coloroutput").text(color.toHexString());
 							},
 							beforeShow: function(color) {
 								$("#coloroutput").text(color.toHexString());
 							},
 							hide: function(color) {
-                                ga('send','event','colorpicker','hide',color);
+                                ga('send','event','colorpicker','hide',color.toHexString());
 								$("#coloroutput").text(color.toHexString());
 							},
 							change: function(color) {
-                                ga('send','event','colorpicker','change',color);
+                                ga('send','event','colorpicker','change',color.toHexString());
 								$("#coloroutput").text(color.toHexString());
 							},
 							palette: [
