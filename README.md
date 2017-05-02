@@ -5,6 +5,7 @@
 This is the source code for the Making History Gold modding guide that is located on [Github](https://tyrelius.github.io/Modding-Making-History/).
 
 The quick reference guide is broken into the following sections:
+
 Section | Topic
 --- | ---
 Intelligence Briefing | General information, quicklinks, tips, and tools.
