@@ -129,29 +129,37 @@
                 <div id="pathsfolders" class="item col3 expand-disable">
                     <h3>A Note About Paths and Folders</h3>
                     <h4>MHG Root Folder</h4>
-                    <p>This document will refer to your Making History Gold root folder as being the folder in which the <code>Modern Europe</code> folder exists. From here on out, it will be referenced as <code>./</code> when providing paths to files.</p>
+                    <p>This document will refer to your Making History Gold root folder as being the folder in which the <code>Modern Europe</code> folder exists. From here on out, it will be referenced as <code>.\</code> when providing paths to files.</p>
                     <p>The MHG root folder will likely exist at one of the following locations, depending on where you obtained your copy of the game from.</p>
                     <ul>
-                        <li>If you purchased the game directly from Muzzy Lane or Factus Games:
-                            <ul>
-                                <li><code>C:\Program Files (x86)\Muzzy Lane Software\Making History Gold</code></li>
-                            </ul>
-                        </li>
                         <li>If you purchased the game from Steam:
                             <ul>
                                 <li><code>C:\Program Files (x86)\Steam\steamapps\common\Making History Gold</code></li>
                             </ul>
                         </li>
+                        <li>If you purchased the game directly from Muzzy Lane or Factus Games:
+                            <ul>
+                                <li><code>C:\Program Files (x86)\Muzzy Lane Software\Making History Gold</code></li>
+                            </ul>
+                        </li>
+                        <li>When working in Wine for macOS, your data may end up in multiple directories.
+                            <ul>
+                                <li>Your default game data and scenarios will end up here:<br /><code>~/.wine/drive_c/Program Files (x86)/Muzzy Lane Software/Making History Gold</code></li>
+                                <li>Your output files, such as the <code>options.xml</code> and game saves will end up here:<br /><code>~/.wine/drive_c/users/Public/Application Data/Muzzy Lane Software/Making History Gold</code></li>
+                            </ul>
+                        </li>
                     </ul>
                     <h4>Scenario Root Folder</h4>
-                    <p>This document will refer to your scenario's root folder as being the folder which holds the code for your scenario, which will be located in <code>./Modern Europe/system/scenarios</code> and titled as whatever you named it. From here on out, it will be referenced as <code>$/</code> when providing paths to files.</p>
+                    <p>This document will refer to your scenario's root folder as being the folder which holds the code for your scenario, which will be located in <code>.\Modern Europe\system\scenarios</code> and titled as whatever you named it. From here on out, it will be referenced as <code>$\</code> when providing paths to files.</p>
+                    <h4>Saved Games Folder</h4>
+                    <p>This document will refer to your saved games folder as being the folder in which the game stores your saved games, which will be located in yur username folder inside of <code>.\Output Files\Saves</code>. From here on out, it will be referenced as <code>&#x20b2;\</code> when providing paths to files. But we probably won't be refering to saved game files every again after this.</p>
                 </div>
                 <!-- END ITEM -->
                 
                 <!-- BEGIN ITEM -->
-                <div id="displaysettings" class="item col3">
+                <div id="displaysettings" class="item col4">
                     <h3>Custom Display Settings</h3>
-                    <p>If you would like to change your display resolution to a setting not provided by the game's default settings, you can edit the <code>options.xml</code> file located at <code>./Options/options.xml</code></p>
+                    <p>If you would like to change your display resolution to a setting not provided by the game's default settings, you can edit the <code>options.xml</code> file located at <code>.\Options\options.xml</code></p>
                     <pre>
 &lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
