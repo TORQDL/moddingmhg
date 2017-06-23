@@ -217,3 +217,22 @@ pre {
 .color1 {
   background-color: #000000;
 }
+
+.pre-table {
+    display: table;
+    border: dashed 1px #B1B3B3;
+    background-color: #F4F4F4;
+    white-space: pre-wrap;
+    unicode-bidi: embed;
+    font-family: "Source Code Pro", Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", Courier, "monospace";
+    font-size: 1.2rem;
+}
+
+.pre-table .t-row {
+    display: table-row;
+}
+
+.pre-table .t-row .t-col {
+    display: table-cell;
+    padding: 1rem;
+}

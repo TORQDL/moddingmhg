@@ -369,18 +369,33 @@ placeholder
                 <div class="item col4 expand-disable">
                     <h3>A Window to a New World</h3>
                     <p>So you have a Mac, but you miss playing the classic Gold Edition? Now you can with a little help from Wine. Just don't let the French know.</p>
+                    <h4>Wine Is Not an Emulator</h4>
+                    <p>Wine is a free and open-source compatibility layer for running Windows applications on Unix-like operating systems, including macOS. It has only two prerequisites for running on macOS:</p>
+                    <ul>
+                        <li>XQuartz &gt;= 2.7.7</li>
+                        <li>Gatekeeper must not be set to block unsigned packages.</li>
+                    </ul>
+                    <p>XQuartz is a windowing system that allows cross-platform applications to run on macOS. It is sometimes refered to as X11, X, or X-Windows.</p>
+                    <p>Gatekeeper is a security feature of macOS that enforces code signing and verifies downloaded applications before allowing them to run. It reduces the likelihood of inadvertently executing malware. If you have changed your Gatekeeper settings already, then you likely know what you're doing. If you have not, the default settings for Gatekeeper can be overcome by a simple right-click on the mouse, which will be outlines in the instructions below.</p>
+                    <div class="disclaimer">
+                        <p>Because this is a more advanced topic, and you should only be taking this on if you feel comfortable using your computer in an advanced way, these instructions will not be extremely detailed. It is assumed that if you are doing this, you can read between the lines and understand how to install and run software on your Mac.</p>
+                    </div>
                 </div>
                 <!-- END ITEM -->
                 
                 <!-- BEGIN ITEM -->
-                <div id="installwine" class="item col2">
-                    <h3>Installing Wine 2.0</h3>
-                    <p>Placeholder</p>
-                    <h4>Xquartz</h4>
+                <div id="installwine" class="item col4 expand-disable">
+                    <h3>Installing Wine 2.x</h3>
+                    <p>In order to play Making History Gold on macOS, we need to be able to run Windows software on macOS. To do this, we will install Wine 2.x and XQuartz.</p>
+                    <h4>XQuartz</h4>
+                    <p>One of the prerequisites of running Wine on macOS is XQuartz; therefore, we will install it first.</p>
+                    <p>Download and install the latest version of XQuartz from here: <a href="https://www.xquartz.org/" target="_blank">XQuartz.org</a></p>
                     <pre>
-placeholder
+MD5 (XQuartz-2.7.11.dmg) = 8e9dbfe2717c8d74c262b3a963597898
 </pre>
+                    <p>Before you install XQuartz, be sure to save and close all open applications. A logout or restart is required after XQuartz installation.</p>
                     <h4>Wine</h4>
+                    <p>Download and install the latest stable release of Wine from here: <a href="https://dl.winehq.org/wine-builds/macosx/download.html" target="_blank">WineHQ</a></p>
                     <pre>
 placeholder
 </pre>
@@ -388,9 +403,10 @@ placeholder
                 <!-- END ITEM -->
                 
                 <!-- BEGIN ITEM -->
-                <div id="installmhgwine" class="item col2">
+                <div id="installmhgwine" class="item col2 expand-disable">
                     <h3>Installing Making History Gold Edition</h3>
-                    <p>Placeholder</p>
+                    <p>You will need the actual installer for Making History Gold for this; Steam versions of the game are NOT supported using this method. If you do not already have a standalone copy of the game, you can obtain one through the Factus Games website using a link at the top of this page.</p>
+                    <h5>One of these days, I may get around to getting Steam running inside of Wine. But that day is not today. Besides, I'm sure someone else already has.</h5>
                     <h4>Placeholder</h4>
                     <pre>
 placeholder
@@ -399,13 +415,71 @@ placeholder
                 <!-- END ITEM -->
                 
                 <!-- BEGIN ITEM -->
-                <div id="postinstallmhgwine" class="item col2">
+                <div id="postinstall" class="item col4 expand-disable">
                     <h3>Post Installation</h3>
-                    <p>Need to find a missing font.</p>
-                    <h4>Placeholder</h4>
-                    <pre>
-placeholder
+                    <p>If you already tried to launch Making History Gold, you likely found it unusable. This is because we are missing a couple of components:</p>
+                    <ul>
+                        <li>DirectX</li>
+                        <li>Fonts</li>
+                        <li>Multiplayer</li>
+                    </ul>
+                </div>
+                <div id="postinstalldirectx" class="item col2">
+                    <h3>DirectX</h3>
+                    <p>DirectX is required for Making History Gold to run. It's the 3D graphics and audio framework. Wine 2.x has basic DirectX support built in, but you need the full DirectX 9.0c library for Making History Gold to run properly.</p>
+                    <ul>
+                        <li>You can download it directly from Microsoft, or you can download it from me. Either way, you should be getting the same file.</li>
+                        <li>Download from Microsoft: <a href="https://www.microsoft.com/en-us/download/details.aspx?id=8109" target="_blank">DirectX</a></li>
+                        <li>Download from here: <a href="#">DirectX</a></li>
+                        <li><pre>
+MD5 (directx_Jun2010_redist.exe) = 7c1fc2021cf57fed3c25c9b03cd0c31a
 </pre>
+                        </li>
+                        <li>Because you have Wine installed, <code>directx_Jun2010_redist.exe</code> should have a Wine icon. Double-click <code>directx_Jun2010_redist.exe</code> to open it in Wine and follow the installation wizard.</li>
+                    </ul>
+                </div>
+                <div id="postinstalldirectx" class="item col2">
+                    <h3>Fonts</h3>
+                    <p>The fonts used inside of Making History Gold may be default fonts, but the fonts built into macOS don't seem to work with it. This is likely due to the version or format of the fonts under macOS. These fonts are Arial and Courier. I have exported them from Windows and zipped them up for your convenience.</p>
+                    <ul>
+                        <li>Download the fonts: <a href="#">ZIP</a>
+                                    <pre>
+MD5 (winefonts.zip) = fe634bddc6efd8b7c827a0c5c555814d
+</pre>
+                        </li>
+                        <li>Once you have the fonts downloaded and extracted, place them in this folder:
+                            <ul>
+                                <li><code>~/.wine/drive_c/windows/Fonts</code></li>
+                            </ul>
+                        </li>
+                        <li>You should have the following nine font files:
+                            <ul>
+                                <li>
+                                    <div class="pre-table">
+                                        <div class="t-row">
+                                            <div class="t-col">arial.ttf</div>
+                                            <div class="t-col">arialbd.ttf</div>
+                                            <div class="t-col">arialbi.ttf</div>
+                                            <div class="t-col">ariali.ttf</div>
+                                        </div>
+                                        <div class="t-row">
+                                            <div class="t-col">ariblk.ttf</div>
+                                        </div>
+                                        <div class="t-row">
+                                            <div class="t-col">cour.ttf</div>
+                                            <div class="t-col">courbd.ttf</div>
+                                            <div class="t-col">courbi.ttf</div>
+                                            <div class="t-col">couri.ttf</div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div id="postinstalldirectx" class="item col2">
+                    <h3>Multiplayer</h3>
+                    <p>I have not yet got the network stack running properly, so trying to play a multiplayer game under Wine will cause the game to crash or freeze.</p>
                 </div>
                 <!-- END ITEM -->
                 
