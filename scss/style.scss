@@ -285,3 +285,20 @@ pre {
 .color1 {
 	background-color: $bg_color_one;
 }
+
+.pre-table {
+    display: table;
+    border: dashed 1px #B1B3B3;
+    background-color: #F4F4F4;
+    white-space: pre-wrap;
+    unicode-bidi: embed;
+    font-family: "Source Code Pro", Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", Courier, "monospace";
+    font-size: 1.2rem;
+    .t-row {
+        display: table-row;
+        .t-col {
+            display: table-cell;
+            padding: 1rem;
+        }
+    }
+}
