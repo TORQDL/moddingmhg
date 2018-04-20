@@ -1,7 +1,7 @@
 # Modding Quick Reference<br/>Making History: The Calm and the Storm Gold Edition
 
 ## About
-This is the source code for the Making History Gold modding guide that is located at [Github](https://tyrelius.github.io/Modding-Making-History/).
+This is the source code for the Making History Gold modding guide that is located at [Github](https://torqdl.github.io/moddingmhg/).
 
 The quick reference guide is broken into the following sections:
 
