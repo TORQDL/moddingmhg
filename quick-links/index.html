@@ -3,7 +3,7 @@
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
 <head>
-    <title>Tools &amp; FAQ | Modding Making History Gold Edition</title>
+    <title>Quick Links | Modding Making History Gold Edition</title>
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,7 +14,6 @@
     <!-- Global CSS -->
     <link rel="stylesheet" href="../assets/plugins/bootstrap/css/bootstrap.min.css">   
     <!-- Plugins CSS -->
-    <link rel="stylesheet" href="../assets/css/spectrum.css"/>
     <link rel="stylesheet" href="../assets/plugins/prism/prism.css">
     <link rel="stylesheet" href="../assets/plugins/lightbox/dist/ekko-lightbox.min.css">
     <link rel="stylesheet" href="../assets/plugins/elegant_font/css/style.css">
@@ -35,9 +34,6 @@
     
     <script type="text/javascript" src="../assets/plugins/jquery-match-height/jquery.matchHeight-min.js"></script>
     <script type="text/javascript" src="../assets/js/main.js"></script>
-	
-	<!-- Plugin Javascript -->
-    <script type="text/javascript" src="../assets/js/spectrum.js"></script>
 	
 	<!-- Analytics -->
 	<script>
@@ -64,159 +60,41 @@
                 </div><!--//branding-->
                 <ol class="breadcrumb">
                     <li><a href="../">Home</a></li>
-                    <li class="active">Tools &amp; FAQ</li>
+                    <li class="active">Quick Links</li>
                 </ol>
             </div><!--//container-->
         </header><!--//header-->
         <div class="doc-wrapper">
             <div class="container">
                 <div id="doc-header" class="doc-header text-center">
-                    <h1 class="doc-title"><span aria-hidden="true" class="icon icon_tools"></span> Tools &amp; FAQ</h1>
+                    <h1 class="doc-title"><span aria-hidden="true" class="icon icon_link_alt"></span> Quick Links</h1>
                     <div class="meta"><i class="fa fa-clock-o"></i> Last updated: June 10th, 2018</div>
                 </div><!--//doc-header-->
                 <div class="doc-body">
                     <div class="doc-content">
                         <div class="content-inner">
                            
-                            <section id="color-picker" class="doc-section">
-                                <h2 class="section-title">Color Picker</h2>
+                            <section id="community" class="doc-section">
+                                <h2 class="section-title">Community</h2>
                                 <div class="section-block">
-                                    <p>In need of a quick and easy way to select colors for your new countries? Try this color picker.</p>
-									<p><input type="text" id="colorpicker" />&emsp;HEX Color: <span id="coloroutput" style="text-transform: uppercase;">#B82A1B</span></p>
-									<script>
-										$("#colorpicker").spectrum({
-											color: "#B82A1B",
-											showInput: true,
-											className: "full-spectrum",
-											showInitial: true,
-											showPalette: true,
-											showSelectionPalette: true,
-											maxSelectionSize: 10,
-											preferredFormat: "hex",
-											localStorageKey: "spectrum.demo",
-											move: function(color) {
-											},
-											show: function(color) {
-												ga('send','event','colorpicker','show',color.toHexString());
-												$("#coloroutput").text(color.toHexString());
-											},
-											beforeShow: function(color) {
-												$("#coloroutput").text(color.toHexString());
-											},
-											hide: function(color) {
-												ga('send','event','colorpicker','hide',color.toHexString());
-												$("#coloroutput").text(color.toHexString());
-											},
-											change: function(color) {
-												ga('send','event','colorpicker','change',color.toHexString());
-												$("#coloroutput").text(color.toHexString());
-											},
-											palette: [
-												[
-													"rgb(0, 0, 0)",
-													"rgb(67, 67, 67)",
-													"rgb(102, 102, 102)",
-													"rgb(204, 204, 204)",
-													"rgb(217, 217, 217)",
-													"rgb(255, 255, 255)"
-												],
-												[
-													"rgb(152, 0, 0)",
-													"rgb(255, 0, 0)",
-													"rgb(255, 153, 0)",
-													"rgb(255, 255, 0)",
-													"rgb(0, 255, 0)",
-													"rgb(0, 255, 255)",
-													"rgb(74, 134, 232)",
-													"rgb(0, 0, 255)",
-													"rgb(153, 0, 255)",
-													"rgb(255, 0, 255)"
-												], 
-												[
-													"rgb(230, 184, 175)",
-													"rgb(244, 204, 204)",
-													"rgb(252, 229, 205)",
-													"rgb(255, 242, 204)",
-													"rgb(217, 234, 211)",
-													"rgb(208, 224, 227)",
-													"rgb(201, 218, 248)",
-													"rgb(207, 226, 243)",
-													"rgb(217, 210, 233)",
-													"rgb(234, 209, 220)",
-													"rgb(221, 126, 107)",
-													"rgb(234, 153, 153)",
-													"rgb(249, 203, 156)",
-													"rgb(255, 229, 153)",
-													"rgb(182, 215, 168)",
-													"rgb(162, 196, 201)",
-													"rgb(164, 194, 244)",
-													"rgb(159, 197, 232)",
-													"rgb(180, 167, 214)",
-													"rgb(213, 166, 189)",
-													"rgb(204, 65, 37)",
-													"rgb(224, 102, 102)",
-													"rgb(246, 178, 107)",
-													"rgb(255, 217, 102)",
-													"rgb(147, 196, 125)",
-													"rgb(118, 165, 175)",
-													"rgb(109, 158, 235)",
-													"rgb(111, 168, 220)",
-													"rgb(142, 124, 195)",
-													"rgb(194, 123, 160)",
-													"rgb(166, 28, 0)",
-													"rgb(204, 0, 0)",
-													"rgb(230, 145, 56)",
-													"rgb(241, 194, 50)",
-													"rgb(106, 168, 79)",
-													"rgb(69, 129, 142)",
-													"rgb(60, 120, 216)",
-													"rgb(61, 133, 198)",
-													"rgb(103, 78, 167)",
-													"rgb(166, 77, 121)",
-													"rgb(91, 15, 0)",
-													"rgb(102, 0, 0)",
-													"rgb(120, 63, 4)",
-													"rgb(127, 96, 0)",
-													"rgb(39, 78, 19)",
-													"rgb(12, 52, 61)",
-													"rgb(28, 69, 135)",
-													"rgb(7, 55, 99)",
-													"rgb(32, 18, 77)",
-													"rgb(76, 17, 48)"
-												]
-											],
-											allowEmpty: true,
-											chooseText: "Select",
-											cancelText: "Cancel"
-										});
-									</script>
-                                </div>
+                                    <p>Would you like to find out more about the game, or connect with other community members?</p>
+                                    <ul class="list list-inline">
+                                        <li><a class="btn btn-cta btn-red" href="https://factusgames.com/" target="_blank"><img src="../assets/images/factus-cog.svg" height="16" alt="Factus Games" aria-hidden="true" style="margin-top: -2px;">&ensp;Factus Games</a></li>
+										
+                                        <li><a class="btn btn-cta btn-primary" href="https://steamcommunity.com/app/371190" target="_blank"><i class="fab fa-steam-symbol" aria-hidden="true"></i>&ensp;Steam Community</a></li>
+                                    </ul>
+                                </div><!--//section-block-->
                             </section><!--//doc-section-->
-                            
-                            <section id="faq" class="doc-section">
-                                <h2 class="section-title">Frequently Asked Questions</h2>
-								
-								<div class="section-block">
-                                    <h3 class="question"><i class="fa fa-question-circle"></i> What port does multiplayer use?</h3>
-                                    <div class="answer">When opening ports in your firewall, or forwarding ports through your router, use UDP port 9103.</div>
+                           
+                            <section id="purchase" class="doc-section">
+                                <h2 class="section-title">Buy the Game</h2>
+                                <div class="section-block">
+                                    <p>If you don't already own the game, why not?</p>
+                                    <ul class="list list-inline">
+                                        <li><a class="btn btn-cta btn-red" href="https://factusgames.com/collections/all/products/making-history-the-calm-the-storm-gold-edition" target="_blank"><img src="../assets/images/factus-cog.svg" height="16" alt="Factus Games" aria-hidden="true" style="margin-top: -2px;">&ensp;Factus Games</a></li>
+                                        <li><a class="btn btn-cta btn-primary" href="https://store.steampowered.com/app/371190/Making_History_The_Calm_and_the_Storm_Gold_Edition/" target="_blank"><i class="fab fa-steam-symbol" aria-hidden="true"></i>&ensp;Steam</a></li>
+                                    </ul>
                                 </div><!--//section-block-->
-								
-								<div class="section-block">
-                                    <h3 class="question"><i class="fa fa-question-circle"></i> What are the system requirements to run this game?</h3>
-                                    <div class="answer">
-										<ul>
-											<li>OS: Windows 10 / Windows 8 / Windows 7 / Windows Vista / Windows XP with Service Pack 2</li>
-											<li>Processor: Pentium 4 or better</li>
-											<li>Memory: 2 GB RAM</li>
-											<li>Graphics: 256 MB DirectX 9.0c-Compliant, Shader 2.0 3D Video Card</li>
-											<li>DirectX: Version 9.0c</li>
-											<li>Hard Drive: 2 GB available space</li>
-											<li>Sound: DirectX 9.0c Compatible Sound Card</li>
-											<li>Other Requirements: Windows-Compliant Keyboard &amp; Mouse</li>
-										</ul>
-									</div>
-                                </div><!--//section-block-->
-								
                             </section><!--//doc-section-->
 							
                         </div><!--//content-inner-->
@@ -224,8 +102,8 @@
                     <div class="doc-sidebar hidden-xs">
                         <nav id="doc-nav">
                             <ul id="doc-menu" class="nav doc-menu" data-spy="affix">
-                                <li><a class="scrollto" href="#color-picker">Color Picker</a></li>
-								<li><a class="scrollto" href="#faq">FAQ</a></li>
+                                <li><a class="scrollto" href="#community">Community</a></li>
+								<li><a class="scrollto" href="#purchase">Buy the Game</a></li>
                             </ul><!--//doc-menu-->
                         </nav>
                     </div><!--//doc-sidebar-->
