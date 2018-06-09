@@ -1,0 +1,132 @@
+/* ====== Header ====== */
+.header {
+    background: $text-color;
+	background-image: url(../images/mhg-banner.png);
+	background-size: cover;
+	background-position: right center;
+    color: rgba(255, 255, 255, 0.85);
+    border-top: 5px solid $color-primary;
+    padding: 30px 0;
+    a {
+        color: #fff;
+    }
+	.branding {
+		font-family: $font-stack-special-header;
+		text-transform: uppercase;
+		margin-bottom: 10px;
+		.logo {
+			font-size: 28px;
+			margin-top: 0;
+			margin-bottom: 0;
+			a {
+				text-decoration: none;
+			}
+		}
+		.text-highlight {
+			color: $color-primary;
+			.body-green & {
+				color: $color-green;
+			}
+			.body-blue & {
+				color: $color-blue;
+			}
+			.body-orange & {
+				color: $color-orange;
+			}
+			.body-red & {
+				color: $color-red;
+			}
+			.body-pink & {
+				color: $color-pink;
+			}
+			.body-purple & {
+				color: $color-purple;
+			}
+			.body-yellow & {
+				color: $color-yellow;
+			}
+			.body-turquoise & {
+				color: $color-turquoise;
+			}
+		}
+		.text-bold {
+			font-weight: 800;
+			color: #fff;
+		}
+		.icon {
+			font-size: 24px;
+			color: $color-primary;
+			.body-green & {
+				color: $color-green;
+			}
+			.body-blue & {
+				color: $color-blue;
+			}
+			.body-orange & {
+				color: $color-orange;
+			}
+			.body-red & {
+				color: $color-red;
+			}
+			.body-pink & {
+				color: $color-pink;
+			}
+			.body-purple & {
+				color: $color-purple;
+			}
+			.body-yellow & {
+				color: $color-yellow;
+			}
+			.body-turquoise & {
+				color: $color-turquoise;
+			}
+		}
+	}
+	.tagline {
+		font-family: $font-stack-default;
+		font-weight: 600;
+		font-size: 20px;
+		p {
+			margin-bottom: 5px;
+			span {
+				white-space: nowrap;
+			}
+		}
+		.text-highlight{
+			color: darken($color-primary, 20%);
+		}
+	}
+	.breadcrumb {
+		background: none;
+		margin-bottom: 0;
+		padding: 0;
+		li {
+			color: rgba(255, 255, 255, 0.5);
+			&.active {
+				color: rgba(255, 255, 255, 0.5);
+			}
+			a {
+				color: rgba(255, 255, 255, 0.5);
+				&:hover {
+					color: #fff;
+				}
+			}
+		} 
+
+	}
+	.breadcrumb>li+li:before {
+		/* color: rgba(0, 0, 0, 0.4); */
+		color: rgba(255, 255, 255, 0.5);
+	}
+	.landing-page & {
+		.branding {
+			margin-bottom: 20px;
+			.logo {
+				font-size: 38px;
+			}
+			.icon {
+				font-size: 32px;
+			}
+		}
+	}
+}

@@ -3,9 +3,22 @@
 /* Factus colors */
 /* Standard colors */
 /* Theme default */
+/* Web Fonts */
+@import url("fonts/fontawesome-all.css");
+@import url("fonts/torq-digital-labs.css");
+@import url("fonts/open-sans.css");
+@import url("fonts/effra.css");
+@import url("fonts/metropolis.css");
+@import url("fonts/muli.css");
+@import url("fonts/sfpro.css");
+@font-face {
+  font-family: system;
+  font-style: normal;
+  font-weight: 400;
+  src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma"); }
 /* ======= Base ======= */
 body {
-  font-family: Effra, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  font-family: Muli, Metropolis, "Helvetica Neue", Helvetica, Arial, "sans-serif", system;
   color: #222222;
   font-size: 14px;
   -webkit-font-smoothing: antialiased;
@@ -55,7 +68,7 @@ code {
   color: #fff;
   font-size: 14px;
   font-weight: bold;
-  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  font-family: "SF Mono", Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
   padding: 2px 8px;
   padding-top: 4px;
   display: inline-block; }
@@ -63,7 +76,7 @@ code {
 .inline-code {
   font-size: 11px;
   font-weight: bold;
-  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; }
+  font-family: "SF Mono", Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; }
 
 .btn, a.btn {
   transition: all 0.4s ease-in-out;
@@ -223,95 +236,6 @@ select {
 
 .video-container iframe {
   max-width: 100%; }
-
-/* ====== Header ====== */
-.header {
-  background: #222222;
-  background-image: url(../images/mhg-banner.png);
-  background-size: cover;
-  background-position: right center;
-  color: rgba(255, 255, 255, 0.85);
-  border-top: 5px solid #222222;
-  padding: 30px 0; }
-  .header a {
-    color: #fff; }
-
-.branding {
-  text-transform: uppercase;
-  margin-bottom: 10px; }
-  .branding .logo {
-    font-size: 28px;
-    margin-top: 0;
-    margin-bottom: 0; }
-    .branding .logo a {
-      text-decoration: none; }
-  .branding .text-highlight {
-    color: #222222; }
-    .body-green .branding .text-highlight {
-      color: #585123; }
-    .body-blue .branding .text-highlight {
-      color: #0B3C5D; }
-    .body-orange .branding .text-highlight {
-      color: #FF6600; }
-    .body-red .branding .text-highlight {
-      color: #B82A1B; }
-    .body-pink .branding .text-highlight {
-      color: #974B43; }
-    .body-purple .branding .text-highlight {
-      color: #1A0315; }
-    .body-yellow .branding .text-highlight {
-      color: #FBBB6C; }
-    .body-turquoise .branding .text-highlight {
-      color: #1A4358; }
-  .branding .text-bold {
-    font-weight: 800;
-    color: #fff; }
-  .branding .icon {
-    font-size: 24px;
-    color: #222222; }
-    .body-green .branding .icon {
-      color: #585123; }
-    .body-blue .branding .icon {
-      color: #0B3C5D; }
-    .body-orange .branding .icon {
-      color: #FF6600; }
-    .body-red .branding .icon {
-      color: #B82A1B; }
-    .body-pink .branding .icon {
-      color: #974B43; }
-    .body-purple .branding .icon {
-      color: #1A0315; }
-    .body-yellow .branding .icon {
-      color: #FBBB6C; }
-    .body-turquoise .branding .icon {
-      color: #1A4358; }
-
-.breadcrumb {
-  background: none;
-  margin-bottom: 0;
-  padding: 0; }
-  .breadcrumb li {
-    color: rgba(255, 255, 255, 0.5); }
-    .breadcrumb li.active {
-      color: rgba(255, 255, 255, 0.5); }
-    .breadcrumb li a {
-      color: rgba(255, 255, 255, 0.5); }
-      .breadcrumb li a:hover {
-        color: #fff; }
-
-.breadcrumb > li + li:before {
-  /* color: rgba(0, 0, 0, 0.4); */
-  color: rgba(255, 255, 255, 0.5); }
-
-/* ====== Footer ====== */
-.footer {
-  background: black;
-  color: rgba(255, 255, 255, 0.6);
-  padding: 15px 0; }
-  .footer a {
-    color: #222222; }
-  .footer .fa-heart {
-    color: #974B43; }
 
 /* ======= Doc Styling ======= */
 .doc-wrapper {
@@ -991,37 +915,6 @@ select {
   box-shadow: inset 0 0 3px #fbde4a; }
 
 /* ======= Landing Page ======= */
-.landing-page .header {
-  background: #222222;
-  background-image: url(../images/mhg-banner.png);
-  background-size: cover;
-  background-position: right center;
-  color: rgba(255, 255, 255, 0.85);
-  padding: 60px 0; }
-  .landing-page .header a {
-    color: #fff; }
-.landing-page .branding {
-  text-transform: uppercase;
-  margin-bottom: 20px; }
-  .landing-page .branding .logo {
-    font-size: 38px;
-    margin-top: 0;
-    margin-bottom: 0; }
-  .landing-page .branding .text-bold {
-    font-weight: 800;
-    color: #fff; }
-  .landing-page .branding .icon {
-    font-size: 32px;
-    color: #222222; }
-.landing-page .tagline {
-  font-weight: 600;
-  font-size: 20px; }
-  .landing-page .tagline p {
-    margin-bottom: 5px; }
-    .landing-page .tagline p span {
-      white-space: nowrap; }
-  .landing-page .tagline .text-highlight {
-    color: black; }
 .landing-page .fa-heart {
   color: #974B43; }
 .landing-page .cta-container {
@@ -1151,3 +1044,105 @@ select {
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
 /* Large devices (large desktops, 1200px and up) */
+/* ====== Header ====== */
+.header {
+  background: #222222;
+  background-image: url(../images/mhg-banner.png);
+  background-size: cover;
+  background-position: right center;
+  color: rgba(255, 255, 255, 0.85);
+  border-top: 5px solid #222222;
+  padding: 30px 0; }
+  .header a {
+    color: #fff; }
+  .header .branding {
+    font-family: Effra, Muli, Metropolis, "SF Display", "Helvetica Neue", "Open Sans", "Lucida Grande", Helvetica, Arial, "sans-serif", system;
+    text-transform: uppercase;
+    margin-bottom: 10px; }
+    .header .branding .logo {
+      font-size: 28px;
+      margin-top: 0;
+      margin-bottom: 0; }
+      .header .branding .logo a {
+        text-decoration: none; }
+    .header .branding .text-highlight {
+      color: #222222; }
+      .body-green .header .branding .text-highlight {
+        color: #585123; }
+      .body-blue .header .branding .text-highlight {
+        color: #0B3C5D; }
+      .body-orange .header .branding .text-highlight {
+        color: #FF6600; }
+      .body-red .header .branding .text-highlight {
+        color: #B82A1B; }
+      .body-pink .header .branding .text-highlight {
+        color: #974B43; }
+      .body-purple .header .branding .text-highlight {
+        color: #1A0315; }
+      .body-yellow .header .branding .text-highlight {
+        color: #FBBB6C; }
+      .body-turquoise .header .branding .text-highlight {
+        color: #1A4358; }
+    .header .branding .text-bold {
+      font-weight: 800;
+      color: #fff; }
+    .header .branding .icon {
+      font-size: 24px;
+      color: #222222; }
+      .body-green .header .branding .icon {
+        color: #585123; }
+      .body-blue .header .branding .icon {
+        color: #0B3C5D; }
+      .body-orange .header .branding .icon {
+        color: #FF6600; }
+      .body-red .header .branding .icon {
+        color: #B82A1B; }
+      .body-pink .header .branding .icon {
+        color: #974B43; }
+      .body-purple .header .branding .icon {
+        color: #1A0315; }
+      .body-yellow .header .branding .icon {
+        color: #FBBB6C; }
+      .body-turquoise .header .branding .icon {
+        color: #1A4358; }
+  .header .tagline {
+    font-family: Muli, Metropolis, "SF Display", "Helvetica Neue", "Open Sans", "Lucida Grande", Helvetica, Arial, "sans-serif", system;
+    font-weight: 600;
+    font-size: 20px; }
+    .header .tagline p {
+      margin-bottom: 5px; }
+      .header .tagline p span {
+        white-space: nowrap; }
+    .header .tagline .text-highlight {
+      color: black; }
+  .header .breadcrumb {
+    background: none;
+    margin-bottom: 0;
+    padding: 0; }
+    .header .breadcrumb li {
+      color: rgba(255, 255, 255, 0.5); }
+      .header .breadcrumb li.active {
+        color: rgba(255, 255, 255, 0.5); }
+      .header .breadcrumb li a {
+        color: rgba(255, 255, 255, 0.5); }
+        .header .breadcrumb li a:hover {
+          color: #fff; }
+  .header .breadcrumb > li + li:before {
+    /* color: rgba(0, 0, 0, 0.4); */
+    color: rgba(255, 255, 255, 0.5); }
+  .landing-page .header .branding {
+    margin-bottom: 20px; }
+    .landing-page .header .branding .logo {
+      font-size: 38px; }
+    .landing-page .header .branding .icon {
+      font-size: 32px; }
+
+/* ====== Footer ====== */
+.footer {
+  background: black;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 15px 0; }
+  .footer a {
+    color: #222222; }
+  .footer .fa-heart {
+    color: #974B43; }

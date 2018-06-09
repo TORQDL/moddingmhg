@@ -1,6 +1,6 @@
 /* ======= Base ======= */
 body {
-    font-family: Effra, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    font-family: Muli, Metropolis, "Helvetica Neue", Helvetica, Arial, "sans-serif", system;
     color: $text-color;
     font-size: 14px;
     -webkit-font-smoothing: antialiased;
@@ -58,7 +58,7 @@ code {
     color: #fff;
     font-size: 14px;
     font-weight: bold;
-    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    font-family: "SF Mono", Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
     padding:2px 8px;
     padding-top: 4px;
     display: inline-block;
@@ -67,7 +67,7 @@ code {
 .inline-code {
     font-size: 11px;
     font-weight: bold;
-    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    font-family: "SF Mono", Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 }
 
 .btn, a.btn {
@@ -235,128 +235,4 @@ select {
 
 .video-container iframe {
     max-width: 100%;    
-}
-
-
-/* ====== Header ====== */
-.header {
-    background: $text-color;
-	background-image: url(../images/mhg-banner.png);
-	background-size: cover;
-	background-position: right center;
-    color: rgba(256, 256, 256, 0.85);
-    border-top: 5px solid $color-primary;
-    padding: 30px 0;
-    a {
-        color: #fff;
-    }
-}
-.branding {
-    text-transform: uppercase;
-    margin-bottom: 10px;
-    .logo {
-        font-size: 28px;
-        margin-top: 0;
-        margin-bottom: 0;
-        a {
-            text-decoration: none;
-        }
-    }
-    .text-highlight {
-        color: $color-primary;
-        .body-green & {
-            color: $color-green;
-        }
-        .body-blue & {
-            color: $color-blue;
-        }
-        .body-orange & {
-            color: $color-orange;
-        }
-        .body-red & {
-            color: $color-red;
-        }
-        .body-pink & {
-            color: $color-pink;
-        }
-        .body-purple & {
-            color: $color-purple;
-        }
-        .body-yellow & {
-            color: $color-yellow;
-        }
-        .body-turquoise & {
-            color: $color-turquoise;
-        }
-    }
-    .text-bold {
-        font-weight: 800;
-        color: #fff;
-    }
-    .icon {
-        font-size: 24px;
-        color: $color-primary;
-        .body-green & {
-            color: $color-green;
-        }
-        .body-blue & {
-            color: $color-blue;
-        }
-        .body-orange & {
-            color: $color-orange;
-        }
-        .body-red & {
-            color: $color-red;
-        }
-        .body-pink & {
-            color: $color-pink;
-        }
-        .body-purple & {
-            color: $color-purple;
-        }
-        .body-yellow & {
-            color: $color-yellow;
-        }
-        .body-turquoise & {
-            color: $color-turquoise;
-        }
-    }
-}
-
-.breadcrumb {
-    background: none;
-    margin-bottom: 0;
-    padding: 0;
-    li {
-        color: rgba(256, 256, 256, 0.5);
-        &.active {
-            color: rgba(256, 256, 256, 0.5);
-        }
-        a {
-            color: rgba(256, 256, 256, 0.5);
-            &:hover {
-                color: #fff;
-            }
-        }
-    } 
-    
-}
-
-.breadcrumb>li+li:before {
-    /* color: rgba(0, 0, 0, 0.4); */
-	color: rgba(256, 256, 256, 0.5);
-}
-
-
-/* ====== Footer ====== */
-.footer {
-    background: darken($text-color, 15%);
-    color: rgba(256, 256, 256, 0.6);
-    padding: 15px 0;
-    a {
-        color: $color-primary;
-    }
-    .fa-heart {
-        color: $color-pink;
-    }
 }

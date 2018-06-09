@@ -1,0 +1,241 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "Torq Digital Labs";
+  src: url("../../fonts/torq-digital-labs.eot");
+  src: url("../../fonts/torq-digital-labs.eot?#iefix") format("embedded-opentype"),
+       url("../../fonts/torq-digital-labs.woff") format("woff"),
+       url("../../fonts/torq-digital-labs.ttf") format("truetype"),
+       url("../../fonts/torq-digital-labs.svg#torq-digital-labs") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[data-icon]:before {
+    font-family: "Torq Digital Labs" !important;
+    content: attr(data-icon);
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="tdl-"]:before,
+[class*=" tdl-"]:before {
+    font-family: "Torq Digital Labs" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* ICON TOOLS */
+.ti {
+    display: inline-block;
+    font: normal normal normal 16px/1 "Torq Digital Labs";
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ti-lg {
+    /* makes the font 33% larger relative to the icon container */
+    font-size: 1.33333333em;
+    line-height: 0.75em;
+    vertical-align: -15%;
+}
+.ti-2x {
+    font-size: 2em;
+}
+.ti-3x {
+    font-size: 3em;
+}
+.ti-4x {
+    font-size: 4em;
+}
+.ti-5x {
+    font-size: 5em;
+}
+
+.ti-fw {
+    width: 1.28571429em;
+    text-align: center;
+}
+
+.ti-ul {
+    padding-left: 0;
+    margin-left: 2.14285714em;
+    list-style-type: none;
+}
+.ti-ul>li {
+    position: relative;
+}
+.ti-li {
+    position: absolute;
+    left: -2.14285714em;
+    width: 2.14285714em;
+    top: 0.14285714em;
+    text-align: center;
+}
+.ti-li.ti-lg {
+    left: -1.85714286em;
+}
+
+.ti-border {
+    padding: .2em .25em .15em;
+    border: solid 0.08em #eeeeee;
+    border-radius: .1em;
+}
+.ti-pull-left {
+    float: left;
+}
+.ti-pull-right {
+    float: right;
+}
+.ti.ti-pull-left {
+    margin-right: .3em;
+}
+.ti.ti-pull-right {
+    margin-left: .3em;
+}
+.ti.pull-left {
+    margin-right: .3em;
+}
+.ti.pull-right {
+    margin-left: .3em;
+}
+
+.ti-spin {
+    -webkit-animation: fa-spin 2s infinite linear;
+    animation: fa-spin 2s infinite linear;
+}
+.ti-pulse {
+    -webkit-animation: fa-spin 1s infinite steps(8);
+    animation: fa-spin 1s infinite steps(8);
+}
+@-webkit-keyframes fa-spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+@keyframes fa-spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+
+.ti-rotate-90 {
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.ti-rotate-180 {
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.ti-rotate-270 {
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+    -webkit-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+.ti-flip-horizontal {
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+    -webkit-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}
+.ti-flip-vertical {
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+    -webkit-transform: scale(1, -1);
+    -ms-transform: scale(1, -1);
+    transform: scale(1, -1);
+}
+:root .ti-rotate-90,
+:root .ti-rotate-180,
+:root .ti-rotate-270,
+:root .ti-flip-horizontal,
+:root .ti-flip-vertical {
+    filter: none;
+}
+
+.ti-stack {
+    position: relative;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    vertical-align: middle;
+}
+.ti-stack-1x,
+.ti-stack-2x {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+.ti-stack-1x {
+    line-height: inherit;
+}
+.ti-stack-2x {
+    font-size: 2em;
+}
+
+.ti-inverse {
+    color: #ffffff;
+}
+
+/* ICONS */
+.tdl-emblem:before {
+  content: "\e000";
+}
+
+.tdl-gear-t:before {
+  content: "\e001";
+}
+
+.tdl-gear:before {
+  content: "\e002";
+}
+
+.tdl-bullet:before {
+  content: "\e003";
+}
+
+.tdl-bullet-alt:before {
+  content: "\e004";
+}
+
+.tdl-logo:before {
+  content: "\e005";
+}
+
+.tdl-name:before {
+  content: "\e006";
+}
+
+.tdl-name-alt:before {
+  content: "\e007";
+}
