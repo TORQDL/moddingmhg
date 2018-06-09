@@ -1,0 +1,110 @@
+/* Torque Digital Labs Colors */
+$tdl_armygreen: #585123;
+$tdl_arsenic: #424242;
+$tdl_azure: #0099FF;
+$tdl_babypowder: #FDFFFB;
+$tdl_carmine: #A10021;
+$tdl_charcoal: #373737;
+$tdl_charlestongreen: #292B1C;
+$tdl_darkmidnightblue: #003366;
+$tdl_darktangerine: #F5A715;
+$tdl_deepplum: #1A0315;
+$tdl_evening: #192231;
+$tdl_goldleaf: #D9B310;
+$tdl_gunmetalgray: #31283E;
+$tdl_gunmetalblue: #233237;
+$tdl_harvardcrimson: #CB0011;
+$tdl_isabelline: #EFEFEF;
+$tdl_ivoryblack: #1D2731;
+$tdl_maastrichtblue: #011627;
+$tdl_navyblue: #18121E;
+$tdl_pakistangreen: #006900;
+$tdl_paper: #F3F3F3;
+$tdl_prune: #692312;
+$tdl_prussianblue: #0B3C5D;
+$tdl_safetyorange: #FF6600;
+$tdl_shadow: #535353;
+$tdl_silver: #BFC3B9;
+$tdl_skyblue: #328BC1;
+$tdl_smokyblack: #0E0E0E;
+$tdl_smokytopaz: #974B43;
+$tdl_spartancrimson: #A71313;
+$tdl_stormy: #494E6B;
+$tdl_viridiangreen: #009999;
+$tdl_void: #0E0B16;
+$tdl_warmyellow: #E9C57A;
+
+/* Tyrelius colors */
+$ty_japaneseindigo: #1A4358;
+$ty_chocolate: #663300;
+$ty_persianrose: #FF3399;
+$ty_pixiepowder: #0033CB;
+$ty_azure: #0099FF;
+$ty_viridiangreen: #009999;
+$ty_sheengreen: #66CB00;
+$ty_uscgold: #FFCB00;
+$ty_safetyorange: #FF6600;
+$ty_red: #FF0000;
+$ty_yellow: #F9DD13;
+$ty_pakistangreen: #006900;
+$ty_arsenic: #424242;
+$ty_harvardcrimson: #CB0011;
+$ty_smokyblack: #0F0F0F;
+$ty_isabelline: #EFEFEF;
+$ty_darkmidnightblue: #003366;
+$ty_armygreen: #585123;
+$ty_outerspace: #3E505B;
+$ty_carmine: #A10021;
+$ty_babypowder: #FDFFFB;
+$ty_maastrichtblue: #011627;
+
+/* Factus colors */
+$fg_raisinblack: #222222;
+$fg_davysgrey: #555555;
+$fg_nickel: #707070;
+$fg_taupegray: #8C8E91;
+$fg_bone: #E0DBC8;
+$fg_cornellred: #B82A1B;
+$fg_mellowapricot: #FBBB6C;
+
+/* Standard colors */
+$white: #FFFFFF;
+$verylightgray: #EBEBEB;
+$lightgray: #CCCCCC;
+$gray: #999999;
+$darkgray: #666666;
+$verydarkgray: #333333;
+$black: #000000;
+
+/* Theme default */
+$color-primary: #222222;
+$color-green: #585123;
+$color-red: #B82A1B;
+$color-blue: #0B3C5D;
+$color-orange: #FF6600;
+$color-pink: #974B43;
+$color-purple: #1A0315;
+$color-yellow: #FBBB6C;
+$color-turquoise: #1A4358;
+$color-bluegray: #3E505B;
+
+
+$text-color: #222222;
+$text-color-secondary: lighten($text-color, 10%);
+$text-grey: lighten($text-color-secondary, 25%);
+$grey: lighten($text-color-secondary, 25%);
+$light-grey: #8C8E91;
+$dark-grey: #707070;
+$black: #000000;
+$white: #FFFFFF;
+$offwhite: #FDFFFB;
+$smoky-white: #EFEFEF;
+$smoky-grey: #E0DBC8;
+$divider: $light-grey;
+
+$new: #006900;
+$error: #FF0000;
+$facebook: #3b5998;
+$twitter: #55acee;
+$google: #dd4b39;
+$github: #444;
