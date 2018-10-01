@@ -1,0 +1,689 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Modding Quick Reference - Making History Gold Edition</title>
+        <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAABm1BMVEUMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCcMGCdDRRVMAAAAiHRSTlMAAQMEBgcICQoLDA0REhMUFhgZGhscHR4fISIjJCUrLS4/QEtMTU5PUVRVVllcXV9gYWJjZmttbnB0dXd7fX+AgoSFhoeJi4yNkJGSlZien6KkpaanqaqrrbO1tri5vMLDxMbIyc3O0NHS1Nrd3t/g4+Tl5ufq7O3u7/Dx8vT19vf4+fr7/P3+r+Iu8wAAAa1JREFUeAF90ftfS3Ecx/F3RGiLFpJERFu5lBNSMVQuy2ViuYTcW40Q05aZ7dSZvf5s37PVZo+2PX9+PT6fH96qsOsTfG5WbXttsFtUTWtsQJLPgfxBSWdjPlU4+hu7vWNmFePX08MHMqS7VdQXHJkaD/0BUjYb7BSQnbpxdzTYJ4vkt2wq/pcCZ2lpnYJ8PJVZTmBJ0YSMWYwPAY/k8b/HeCVjeVHSMcYkLQAD2nAOiDVIl+iWcYf9egirbSrxJSAiLyG5Onl23IbFkXD4QUE4PLoAzolpuuTyU1NAruvUNC7XDDU9ketUZB641WNZ/cMOOMP9lnVyEog+7lXR9h/gl+HJQMYjowd+NqrkI1yV0VJa8wpEVXYbopXBPIRU9hw4839wGpjVpkFcydZysG8Fl6WiSQq+tsmbhaxXvi8U3FTRju/g5CE35Eu6l86vQ96BeFP5x/2mFxjpNVhLY7xsuoelTbu7JE1DWUTSkT2q9JaSd6qiA8g9MnJAp7YaAlLN0s4V4IK2auidg4vSIMwFtqm610i8UW3tjF3mkOqYgAnV0+g4jarrWlCV/gGrFN6AIfl27gAAAABJRU5ErkJggg=="/>
+        <link rel="stylesheet" href="css/normalize.css"/>
+        <link rel="stylesheet" href="css/muli.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/spectrum.css"/>
+        <script src="https://use.fontawesome.com/aa969c5cdd.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.masonry.min.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/spectrum.js"></script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-81609692-2', 'auto');
+            ga('send', 'pageview');
+        </script>
+    </head>
+    
+    <body>
+        <div class="wrapper">
+            <h1><strong>Modding Quick Reference</strong><br />Making History: The Calm and the Storm Gold Edition</h1>
+            <br />
+            <div class="menu">
+            </div>
+            <br />
+            
+            <!-- BEGIN SHORTCUTS -->
+            <h2 class="color1" id="intelbriefing">Intelligence Briefing</h2>
+            <div class="container">
+                
+                <!-- BEGIN ITEM -->
+                <div id="quicklinks" class="item col1 expand-disable">
+                    <h3>Quicklinks</h3>
+                    <ul class="fa-ul">
+                        <li>
+                            <a href="https://www.factusgames.com" target="_blank">
+                                <i class="fa-li fa fa-cog"></i>Factus Games Homepage
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.factusgames.com/community/" target="_blank">
+                                <i class="fa-li fa fa-cog"></i>Factus Games Forum Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.factusgames.com/community/making-history-the-calm-the-storm-gold-edition/" target="_blank">
+                                <i class="fa-li fa fa-cog"></i>Factus Games Making History Gold Edition Forum
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://steamcommunity.com/app/371190" target="_blank">
+                                <i class="fa-li fa fa-steam"></i>Making History: The Calm and the Storm Gold Edition Steam Community Hub
+                            </a>
+                        </li>
+                    </ul>
+                    <h4>Purchase</h4>
+                    <ul class="fa-ul">
+                        <li>
+                            <a href="https://www.factusgames.com/product/making-history-ii-gold-edition-live/" target="_blank">
+                                <i class="fa-li fa fa-cog"></i>Purchase Making History: The Calm and the Storm Gold Edition
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://store.steampowered.com/app/371190/" target="_blank">
+                                <i class="fa-li fa fa-steam"></i>Making History: The Calm and the Storm Gold Edition on Steam
+                            </a>
+                        </li>
+                    </ul>
+                    <h4>Scenarios</h4>
+                    <ul class="fa-ul">
+                        <li>
+                            <a href="https://tyrelius.github.io/Rise-of-an-Empire/" target="_blank">
+                                <i class="fa-li fa fa-github"></i>Rise of an Empire Scenario on Github
+                            </a>
+                        </li>
+                    </ul>
+                    <h4>Multiplayer Port</h4>
+                    <ul class="fa-ul">
+                        <li><i class="fa-li fa fa-globe"></i>UDP 9103</li>
+                    </ul>
+                    <h4>Color Picker</h4>
+                    <p><input type="text" id="colorpicker" />&emsp;HEX Color: <span id="coloroutput" style="text-transform: uppercase;">#B82A1B</span></p>
+                    <script>
+						$("#colorpicker").spectrum({
+							color: "#B82A1B",
+							showInput: true,
+							className: "full-spectrum",
+							showInitial: true,
+							showPalette: true,
+							showSelectionPalette: true,
+							maxSelectionSize: 10,
+							preferredFormat: "hex",
+							localStorageKey: "spectrum.demo",
+							move: function(color) {
+							},
+							show: function(color) {
+                                ga('send','event','colorpicker','show',color.toHexString());
+								$("#coloroutput").text(color.toHexString());
+							},
+							beforeShow: function(color) {
+								$("#coloroutput").text(color.toHexString());
+							},
+							hide: function(color) {
+                                ga('send','event','colorpicker','hide',color.toHexString());
+								$("#coloroutput").text(color.toHexString());
+							},
+							change: function(color) {
+                                ga('send','event','colorpicker','change',color.toHexString());
+								$("#coloroutput").text(color.toHexString());
+							},
+							palette: [
+								[
+                                    "rgb(0, 0, 0)",
+                                    "rgb(67, 67, 67)",
+                                    "rgb(102, 102, 102)",
+                                    "rgb(204, 204, 204)",
+                                    "rgb(217, 217, 217)",
+                                    "rgb(255, 255, 255)"
+                                ],
+								[
+                                    "rgb(152, 0, 0)",
+                                    "rgb(255, 0, 0)",
+                                    "rgb(255, 153, 0)",
+                                    "rgb(255, 255, 0)",
+                                    "rgb(0, 255, 0)",
+                                    "rgb(0, 255, 255)",
+                                    "rgb(74, 134, 232)",
+                                    "rgb(0, 0, 255)",
+                                    "rgb(153, 0, 255)",
+                                    "rgb(255, 0, 255)"
+                                ], 
+								[
+                                    "rgb(230, 184, 175)",
+                                    "rgb(244, 204, 204)",
+                                    "rgb(252, 229, 205)",
+                                    "rgb(255, 242, 204)",
+                                    "rgb(217, 234, 211)",
+                                    "rgb(208, 224, 227)",
+                                    "rgb(201, 218, 248)",
+                                    "rgb(207, 226, 243)",
+                                    "rgb(217, 210, 233)",
+                                    "rgb(234, 209, 220)",
+                                    "rgb(221, 126, 107)",
+                                    "rgb(234, 153, 153)",
+                                    "rgb(249, 203, 156)",
+                                    "rgb(255, 229, 153)",
+                                    "rgb(182, 215, 168)",
+                                    "rgb(162, 196, 201)",
+                                    "rgb(164, 194, 244)",
+                                    "rgb(159, 197, 232)",
+                                    "rgb(180, 167, 214)",
+                                    "rgb(213, 166, 189)",
+                                    "rgb(204, 65, 37)",
+                                    "rgb(224, 102, 102)",
+                                    "rgb(246, 178, 107)",
+                                    "rgb(255, 217, 102)",
+                                    "rgb(147, 196, 125)",
+                                    "rgb(118, 165, 175)",
+                                    "rgb(109, 158, 235)",
+                                    "rgb(111, 168, 220)",
+                                    "rgb(142, 124, 195)",
+                                    "rgb(194, 123, 160)",
+                                    "rgb(166, 28, 0)",
+                                    "rgb(204, 0, 0)",
+                                    "rgb(230, 145, 56)",
+                                    "rgb(241, 194, 50)",
+                                    "rgb(106, 168, 79)",
+                                    "rgb(69, 129, 142)",
+                                    "rgb(60, 120, 216)",
+                                    "rgb(61, 133, 198)",
+                                    "rgb(103, 78, 167)",
+                                    "rgb(166, 77, 121)",
+                                    "rgb(91, 15, 0)",
+                                    "rgb(102, 0, 0)",
+                                    "rgb(120, 63, 4)",
+                                    "rgb(127, 96, 0)",
+                                    "rgb(39, 78, 19)",
+                                    "rgb(12, 52, 61)",
+                                    "rgb(28, 69, 135)",
+                                    "rgb(7, 55, 99)",
+                                    "rgb(32, 18, 77)",
+                                    "rgb(76, 17, 48)"
+                                ]
+							],
+							allowEmpty: true,
+							chooseText: "Select",
+							cancelText: "Cancel"
+						});
+					</script>
+                </div>
+                <!-- END ITEM -->
+                
+                <!-- BEGIN ITEM -->
+                <div id="pathsfolders" class="item col3 expand-disable">
+                    <h3>A Note About Paths and Folders</h3>
+                    <h4>MHG Root Folder</h4>
+                    <p>This document will refer to your Making History Gold root folder as being the folder in which the <code>Modern Europe</code> folder exists. From here on out, it will be referenced as <code>.\</code> when providing paths to files.</p>
+                    <p>The MHG root folder will likely exist at one of the following locations, depending on where you obtained your copy of the game from.</p>
+                    <ul>
+                        <li>If you purchased the game from Steam:
+                            <ul>
+                                <li><code>C:\Program Files (x86)\Steam\steamapps\common\Making History Gold</code></li>
+                            </ul>
+                        </li>
+                        <li>If you purchased the game directly from Muzzy Lane or Factus Games:
+                            <ul>
+                                <li><code>C:\Program Files (x86)\Muzzy Lane Software\Making History Gold</code></li>
+                                <li><code>C:\ProgramData\Muzzy Lane Software\Making History Gold</code></li>
+                                <li><code>C:\Users\&lt;username&gt;\AppData\Local\VirtualStore\Program Files (x86)\Muzzy Lane Software\Making History Gold</code></li>
+                            </ul>
+                        </li>
+                        <li>When working in Wine for macOS, your data may end up in multiple directories.
+                            <ul>
+                                <li>Your default game data and scenarios will end up here:<br /><code>~/.wine/drive_c/Program Files (x86)/Muzzy Lane Software/Making History Gold</code></li>
+                                <li>Your output files, such as the <code>options.xml</code> and game saves will end up here:<br /><code>~/.wine/drive_c/users/Public/Application Data/Muzzy Lane Software/Making History Gold</code></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <h4>Scenario Root Folder</h4>
+                    <p>This document will refer to your scenario's root folder as being the folder which holds the code for your scenario, which will be located in <code>.\Modern Europe\system\scenarios</code> and titled as whatever you named it. From here on out, it will be referenced as <code>&sect;\</code> when providing paths to files.</p>
+                    <h4>Saved Games Folder</h4>
+                    <p>This document will refer to your saved games folder as being the folder in which the game stores your saved games, which will be located in yur username folder inside of <code>.\Output Files\Saves</code>. From here on out, it will be referenced as <code>&#x20b2;\</code> when providing paths to files. But we probably won't be refering to saved game files every again after this.</p>
+                </div>
+                <!-- END ITEM -->
+                
+                <!-- BEGIN ITEM -->
+                <div id="displaysettings" class="item col4 expand-disable">
+					<h3>Game Options</h3>
+					<p>You can edit the <code>options.xml</code> file located at <code>.\Options\options.xml</code> to change any of the options that are available in the Options screen in-game.</p>
+					<p>When using a default setting, the setting will not show up in the <code>options.xml</code> file. However, in the sample below, the default settings are used as an example.</p>
+					<pre>
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+    &lt;object type="SystemOptions" name=""&gt;
+        &lt;property name="bFullscreen" value="<span class="highlight">true</span>"/&gt;
+        &lt;property name="nScreenWidth" value="<span class="highlight">1024</span>"/&gt;
+        &lt;property name="nScreenHeight" value="<span class="highlight">768</span>"/&gt;
+        &lt;property name="bMuteSoundEffects" value="<span class="highlight">false</span>"/&gt;
+        &lt;property name="bMuteMusic" value="<span class="highlight">false</span>"/&gt;
+        &lt;property name="bUseShadows" value="<span class="highlight">true</span>"/&gt;
+        &lt;property name="bUseParticleEffects" value="<span class="highlight">true</span>"/&gt;
+        &lt;property name="eSpriteMapMode" value="<span class="highlight">SPRITE_MAP_MODE_DEFAULT</span>"/&gt;
+    &lt;/object&gt;
+&lt;/objects&gt;
+</pre>
+					<h4>Full Screen</h4>
+					<p>You can set the game to full screen or windowed by setting the full screen option with a true/false boolean.</p>
+					<pre>
+        &lt;property name="bFullscreen" value="<span class="highlight">false</span>"/&gt;
+</pre>
+					<h4>Custom Screen Resolution</h4>
+					<p>Most modern displays run in a 16:9 screen ratio, using resolutions like 1920x1080 or 1366x768. These resolutions, as well as many others, are not supported by the game by default. If your desired resolution is not available, you can set a custom one in the <code>options.xml</code> file.</p>
+					<pre>
+        &lt;property name="nScreenWidth" value="<span class="highlight">1920</span>"/&gt;
+        &lt;property name="nScreenHeight" value="<span class="highlight">1080</span>"/&gt;
+</pre>
+					<h4>Audio Settings</h4>
+					<p>You can mute or unmute your sound effects and game music. Each can be set with a true/false boolean.</p>
+					<pre>
+        &lt;property name="bMuteSoundEffects" value="<span class="highlight">true</span>"/&gt;
+        &lt;property name="bMuteMusic" value="<span class="highlight">true</span>"/&gt;
+</pre>
+					<h4>Graphics Performance</h4>
+					<p>To improve graphics performance on older systems, or to suit your personal preference, you can disable using shadows or particle effects, or both.</p>
+					<pre>
+        &lt;property name="bUseShadows" value="<span class="highlight">false</span>"/&gt;
+        &lt;property name="bUseParticleEffects" value="<span class="highlight">false</span>"/&gt;
+</pre>
+					<h4>Model Sets</h4>
+					<p>To further help with graphics performance, or to suit your personal preferences, you can also limit the number of 3D model sets that the game will use. The lower the setting, the fewer different 3D models that will be used, and the better the graphics performance.</p>
+					<p>Full Set:</p>
+					<p>Every country will use unique models for their own country (or as defined by models shared by different countries), and each unit type will have unique models. Tanks of different technology levels will look different, bombers of different technology levels will look different, etc. Tanks of one country will look different from another country, bombers of one country will look different from another country, etc.</p>
+					<pre>
+        &lt;property name="eSpriteMapMode" value="<span class="highlight">SPRITE_MAP_MODE_DEFAULT</span>"/&gt;
+</pre>
+					<p>Large Set:</p>
+					<p>Every country will use unique models for their own country (or as defined by models shared by different countries), but they will use a single model for each unit type. All tanks will look the same regardless of technology level, all bombers will look the same regardless of technology level, etc. However, the tanks of one country will look different from another country, the bombers of one country will look different from another country, etc.</p>
+					<pre>
+        &lt;property name="eSpriteMapMode" value="<span class="highlight">SPRITE_MAP_MODE_LIMITED_BY_UNIT</span>"/&gt;
+</pre>
+					<p>Medium Set:</p>
+					<p>Every country will use the same model set, but each unit type will be unique. Tanks of different technology levels will look different, bombers of different technology levels will look different, etc. Tanks of a certain technology level will look the same across all countries, bombers of a certain technology level will look the same across all countries, etc.</p>
+					<pre>
+        &lt;property name="eSpriteMapMode" value="<span class="highlight">SPRITE_MAP_MODE_LIMITED_BY_COUNTRY</span>"/&gt;
+</pre>
+					<p>Low Set:</p>
+					<p>Every country will use the same model set, and each unit type will use the same model regardless of technology level.</p>
+					<pre>
+        &lt;property name="eSpriteMapMode" value="<span class="highlight">SPRITE_MAP_MODE_LIMITED_BY_UNIT_AND_COUNTRY</span>"/&gt;
+</pre>
+                </div>
+                <!-- END ITEM -->
+                
+            </div>
+            <!-- END SHORTCUTS -->
+            
+            <!-- BEGIN COUNTRIES -->
+            <h2 class="color1" id="countries">Building a Great Nation</h2>
+            <div class="container">
+                
+                <!-- BEGIN ITEM -->
+                <div id="changenationcolor" class="item col2">
+                    <h3>Changing a Nation's Color</h3>
+                    <p>To change a nation's color, open the <code>gamestate.xml</code> file located in the root of your scenario folder.</p>
+                    <p>The property named <code>colCountryColor</code> has the current color used for the particular country. Enter a new HEX value for the county's new color. Be sure to leave the <code>FF</code> at the end of the color code.</p>
+                    <pre>
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+    &lt;object type="GameState" name=""&gt;
+        &lt;object type="Player" name="objPlayers"&gt;
+            &lt;property name="strName" value="Afghanistan"/&gt;
+            &lt;property name="bNonPlayable" value="true"/&gt;
+            &lt;property name="colCountryColor" value="#<span class="highlight">30302E</span>FF"/&gt;
+        &lt;/object&gt;
+        
+        ...
+        
+    &lt;/object&gt;
+&lt;/objects&gt;
+</pre>
+                </div>
+                <!-- END ITEM -->
+                
+                <!-- BEGIN ITEM -->
+                <div id="changenationmodels" class="item col2">
+                    <h3>Changing a Nation's Models</h3>
+                    <p>Placeholder</p>
+                    <h4>Placeholder</h4>
+                    <pre>
+placeholder
+</pre>
+                </div>
+                <!-- END ITEM -->
+                
+                <!-- BEGIN ITEM -->
+                <div id="changenationspecificmodels" class="item col2">
+                    <h3>Changing Existing Nation-Specific Models</h3>
+                    <p>Placeholder</p>
+                    <h4>Placeholder</h4>
+                    <pre>
+placeholder
+</pre>
+                </div>
+                <!-- END ITEM -->
+                
+            </div>
+            <!-- END COUNTRIES -->
+            
+            <!-- BEGIN PROVINCES -->
+            <h2 class="color1" id="provinces">Your Land is My Land</h2>
+            <div class="container">
+                
+                <!-- BEGIN ITEM -->
+                <div id="modifyprovinces" class="item col4 expand-disable">
+                    <h3>Modifying Provinces</h3>
+                    <p>You can customize provinces in the game. Give them a new name, more resources, and a whole new culture.</p>
+                </div>
+                <!-- END ITEM -->
+                
+                <!-- BEGIN ITEM -->
+                <div id="changeprovincename" class="item col2">
+                    <h3>Changing the Name of a Province</h3>
+                    <p>Placeholder</p>
+                    <h4>Placeholder</h4>
+                    <pre>
+placeholder
+</pre>
+                </div>
+                <!-- END ITEM -->
+                
+                <!-- BEGIN ITEM -->
+                <div id="addeditresources" class="item col2">
+                    <h3>Adding and Editing Resources</h3>
+                    <p>Placeholder</p>
+                    <h4>Placeholder</h4>
+                    <pre>
+placeholder
+</pre>
+                </div>
+                <!-- END ITEM -->
+                
+            </div>
+            <!-- END PROVINCES -->
+            
+            <!-- BEGIN COSMETICS -->
+            <h2 class="color1" id="cosmetics">Land of the Beautiful</h2>
+            <div class="container">
+                
+                <!-- BEGIN ITEM -->
+                <div class="item col4 expand-disable">
+                    <h3>Art Doesn't Belong in a Museum</h3>
+                    <p>Before you load into a scenario, you want to draw the eye of the player. These topics will help you create your art files for the scenerio selection screen.</p>
+                </div>
+                <!-- END ITEM -->
+                
+                <!-- BEGIN ITEM -->
+                <div id="scenariobutton" class="item col2">
+                    <h3>The Scenario Button</h3>
+                    <p>Placeholder</p>
+                    <h4>Placeholder</h4>
+                    <pre>
+placeholder
+</pre>
+                </div>
+                <!-- END ITEM -->
+                
+                <!-- BEGIN ITEM -->
+                <div id="scenariobanner" class="item col2">
+                    <h3>The Scenario Banner</h3>
+                    <p>Placeholder</p>
+                    <h4>Placeholder</h4>
+                    <pre>
+placeholder
+</pre>
+                </div>
+                <!-- END ITEM -->
+                
+            </div>
+            <!-- END COSMETICS -->
+            
+            <!-- BEGIN ADVANCED -->
+            <h2 class="color1" id="advanced">Home of the Brave</h2>
+            <div class="container">
+                
+                <!-- BEGIN ITEM -->
+                <div class="item col4 expand-disable">
+                    <h3>Advanced Topics for Modding</h3>
+                    <p>These topics are for advanced modders. Expect to be frustrated.</p>
+                </div>
+                <!-- END ITEM -->
+                
+                <!-- BEGIN ITEM -->
+                <div id="addnewculture" class="item col2">
+                    <h3>Adding a New Culture</h3>
+                    <p>Placeholder</p>
+                    <h4>Placeholder</h4>
+                    <pre>
+placeholder
+</pre>
+                </div>
+                <!-- END ITEM -->
+                
+                <!-- BEGIN ITEM -->
+                <div id="addnewideology" class="item col2">
+                    <h3>Adding a New Ideology</h3>
+                    <p>Placeholder</p>
+                    <h4>Placeholder</h4>
+                    <pre>
+placeholder
+</pre>
+                </div>
+                <!-- END ITEM -->
+                
+                <!-- BEGIN ITEM -->
+                <div id="addnewtechnology" class="item col2">
+                    <h3>Adding a New Technology</h3>
+                    <p>Placeholder</p>
+                    <h4>Placeholder</h4>
+                    <pre>
+placeholder
+</pre>
+                </div>
+                <!-- END ITEM -->
+                
+            </div>
+            <!-- END ADVANCED -->
+            
+            <!-- BEGIN WINE -->
+            <h2 class="color1" id="wine">Running on macOS</h2>
+            <div class="container">
+                
+                <!-- BEGIN ITEM -->
+                <div class="item col4 expand-disable">
+                    <h3>A Window to a New World</h3>
+                    <p>So you have a Mac, but you miss playing the classic Gold Edition? Now you can with a little help from Wine. Just don't let the French know.</p>
+                    <h4>Wine Is Not an Emulator</h4>
+                    <p>Wine is a free and open-source compatibility layer for running Windows applications on Unix-like operating systems, including macOS. It has only two prerequisites for running on macOS:</p>
+                    <ul>
+                        <li>XQuartz &gt;= 2.7.7</li>
+                        <li>Gatekeeper must not be set to block unsigned packages.</li>
+                    </ul>
+                    <p>XQuartz is a windowing system that allows cross-platform applications to run on macOS. It is sometimes refered to as X11, X, or X-Windows.</p>
+                    <p>Gatekeeper is a security feature of macOS that enforces code signing and verifies downloaded applications before allowing them to run. It reduces the likelihood of inadvertently executing malware. If you have changed your Gatekeeper settings already, then you likely know what you're doing. If you have not, the default settings for Gatekeeper can be overcome by a simple right-click on the mouse, which will be outlines in the instructions below.</p>
+                    <div class="disclaimer">
+                        <p>Because this is a more advanced topic, and you should only be taking this on if you feel comfortable using your computer in an advanced way, these instructions will not be extremely detailed. It is assumed that if you are doing this, you can read between the lines and understand how to install and run software on your Mac. If you don't normally open and use Terminal, or run with hidden files and folders enabled, you probably shouldn't attempt this.</p>
+                    </div>
+                </div>
+                <!-- END ITEM -->
+                
+                <!-- BEGIN ITEM -->
+                <div id="installwine" class="item col4">
+                    <h3>Installing Wine 2.x</h3>
+                    <p>In order to play Making History Gold on macOS, we need to be able to run Windows software on macOS. To do this, we will install Wine 2.x and XQuartz.</p>
+                    <h4>XQuartz</h4>
+                    <p>One of the prerequisites of running Wine on macOS is XQuartz; therefore, we will install it first.</p>
+                    <p>Download and install the latest version of XQuartz from here: <a href="https://www.xquartz.org/" target="_blank">XQuartz.org</a></p>
+                    <!--<pre>
+MD5 (XQuartz-2.7.11.dmg) = 8e9dbfe2717c8d74c262b3a963597898
+</pre>-->
+                    <p>Before you install XQuartz, be sure to save and close all open applications. A logout or restart is required after XQuartz installation.</p>
+                    <h4>Wine</h4>
+                    <p>Download and install the latest stable release of Wine from here: <a href="https://dl.winehq.org/wine-builds/macosx/download.html" target="_blank">WineHQ</a></p>
+                </div>
+                <!-- END ITEM -->
+                
+                <!-- BEGIN ITEM -->
+                <div id="installmhgwine" class="item col4">
+                    <h3>Installing Making History Gold Edition</h3>
+                    <p>You will need the actual installer for Making History Gold for this; Steam versions of the game are NOT supported using this method. If you do not already have a standalone copy of the game, you can obtain one through the Factus Games website using a link at the top of this page.</p>
+                    <div class="disclaimer">
+                        <p>One of these days, I may get around to getting Steam running inside of Wine. But that day is not today. Besides, I'm sure someone else already has.</p>
+                    </div>
+                    <h4>Install</h4>
+                    <p>Because you have Wine installed, the installation file (presumably named <code>MHGold.exe</code>) should have a Wine icon. You should be able to double-click it, and then follow the installation wizard. At the end, when it asks you if you want to install Adobe Reader, I reccomend you tell it "No". I have not tested what happens when you tell it "Yes" since I have no need to install an auxiliary PDF reader on my Mac.</p>
+                    <p>Once installation is finished, if you used default settings, you will see two new files on your desktop:</p>
+                    <ul>
+                        <li>
+                            <div class="pre-table">
+                                <div class="t-row">
+                                    <div class="t-col">Making History Gold Scenarios.desktop</div>
+                                    <div class="t-col">Making History Gold.desktop</div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <p>These files can be deleted. They will not work to launch the game on your Mac.</p>
+                    <h4>Shortcuts</h4>
+                    <p>Now that we have the game installed, we need to set up some shortcuts so that we can play it. I typically put my shortcuts inside my <code>/Applications</code> folder since that's where all of my normal Mac applications are. I'm going to show you how to do the same; however, you can put your shortcuts wherever you want them.</p>
+                    <p>First, we need to download a couple of images for the icons. I have created a couple for this purpose. You can right-click and save them. For the sake of these instructions, please save them to your <code>~/Downloads</code> folder.</p>
+                    <ul>
+                        <li>
+                            <img src="files/mhg_game_icon.png" width="128rem" alt="Making History Gold" title="Making History Gold" />&emsp;
+                            <img src="files/mhg_editor_icon.png" width="128rem" alt="Making History Gold Editor" title="Making History Gold Editor" />
+                        </li>
+                    </ul>
+                    <p>Now, we are going to create a shell script to handle creating the shortcuts and putting the images on them for icons. Copy the following into a new file at <code>~/Desktop/MHGsetup.sh</code>. Be sure you change the <code>username</code> to your own. And you must use the direct path, because <code>~/</code> does not resolve in osascript.</p>
+                    <pre>
+fun_setup_icons ()
+{
+    iconSource=$1
+    iconDestination=$2
+    icon=/tmp/`basename "$iconSource"`
+    rsrc=/tmp/icon.rsrc
+    cp "$iconSource" "$icon"
+    sips -i "$icon"
+    DeRez -only icns "$icon" &gt; "$rsrc"
+    SetFile -a C "$iconDestination"
+    if [ -f "$iconDestination" ]; then
+        Rez -append "$rsrc" -o "$iconDestination"
+    elif [ -d "$iconDestination" ]; then
+        touch "$iconDestination"/$'Icon\r'
+        Rez -append "$rsrc" -o "$iconDestination"/Icon?
+        SetFile -a V "$iconDestination"/Icon?
+    fi
+    rm "$rsrc" "$icon"
+}
+fun_setup_alias ()
+{
+    osascript -e 'tell application "Finder" to make new alias at POSIX file "/Applications" to (POSIX file "/Users/<span class="highlight">username</span>/.wine/drive_c/Program Files (x86)/Muzzy Lane Software/Making History Gold/bin/makehist.exe")'
+    osascript -e 'tell application "Finder" to make new alias at POSIX file "/Applications" to (POSIX file "/Users/<span class="highlight">username</span>/.wine/drive_c/Program Files (x86)/Muzzy Lane Software/Making History Gold/bin/ed.exe")'
+    osascript -e 'tell application "Finder" to make new alias at POSIX file "/Applications" to (POSIX file "/Users/<span class="highlight">username</span>/.wine/drive_c/Program Files (x86)/Muzzy Lane Software/Making History Gold/Modern Europe/system/scenarios")'
+    fun_setup_icons ~/Downloads/mhg_game_icon.png /Applications/makehist.exe
+    fun_setup_icons ~/Downloads/mhg_editor_icon.png /Applications/ed.exe
+    mv /Applications/makehist.exe /Applications/Making\ History\ Gold
+    mv /Applications/ed.exe /Applications/Making\ History\ Gold\ Editor
+    mv /Applications/scenarios /Applications/Making\ History\ Gold\ Scenarios
+}
+fun_setup_alias
+</pre>
+                    <p>Once you have the file saved, we need to make the file executable. Open Terminal and execute the following command, entering your password when prompted:</p>
+                    <pre>
+sudo chmod +x ~/Desktop/MHGsetup.sh
+</pre>
+                    <p>Now that our script is ready, we will run it. In Terminal, execute this command:</p>
+                    <pre>
+~/Desktop/MHGsetup.sh
+</pre>
+                    <p>When the script is finished, you should notice three new icons in your /Applications folder. You can now launch the game, game editor, or open the scenarios folder.</p>
+                    <p>Now that we are done, you can safely remove the image files from your downloads folder, as well as the script file from your desktop.</p>
+                </div>
+                <!-- END ITEM -->
+                
+                <!-- BEGIN ITEM -->
+                <div id="postinstall" class="item col4 expand-disable">
+                    <h3>Post Installation</h3>
+                    <p>If you already tried to launch Making History Gold, you likely found it unusable. This is because we are missing a couple of components:</p>
+                    <ul>
+                        <li>DirectX</li>
+                        <li>Fonts</li>
+                        <li>Multiplayer</li>
+                    </ul>
+                </div>
+                <div id="postinstalldirectx" class="item col2">
+                    <h3>DirectX</h3>
+                    <p>DirectX is required for Making History Gold to run. It's the 3D graphics and audio framework. Wine 2.x has basic DirectX support built in, but you need the full DirectX 9.0c library for Making History Gold to run properly.</p>
+                    <ul>
+                        <li>You can download it directly from Microsoft, or you can download it from me. Either way, you should be getting the same file.</li>
+                        <li>Download from Microsoft: <a href="https://www.microsoft.com/en-us/download/details.aspx?id=8109" target="_blank">DirectX</a></li>
+                        <li>Download from here: <a href="https://github.com/tyrelius/Modding-Making-History/raw/master/files/directx_Jun2010_redist.exe">DirectX</a></li>
+                        <li><pre>
+MD5 (directx_Jun2010_redist.exe) = 7c1fc2021cf57fed3c25c9b03cd0c31a
+</pre>
+                        </li>
+                        <br />
+                        <li>Because you have Wine installed, <code>directx_Jun2010_redist.exe</code> should have a Wine icon. Double-click <code>directx_Jun2010_redist.exe</code> to open it in Wine.</li>
+                        <br />
+                        <li>What will open is the auto-extractor. It will ask you where you want to extract the files to. I reccomend you choose somewhere easy to find, such as navigating to <code>Z:\Users\username\Desktop\Temp</code>. If you don't have a folder called <code>Temp</code> on your Desktop, it will ask you if you want to create it. Of course you do.</li>
+                        <br />
+                        <li>Once the files are down extracting, you need to find the <code>DXSETUP.exe</code> file in the folder you extracted to. If you used my suggestion, it should in the <code>Temp</code> folder on your Desktop. When you find it, double click it to open it in Wine, and follow the installation wizard.</li>
+                        <li>When the install is finished, feel free to delete the <code>Temp</code> folder.</li>
+                    </ul>
+                </div>
+                <div id="postinstallfonts" class="item col2">
+                    <h3>Fonts</h3>
+                    <p>The fonts used inside of Making History Gold may be default fonts, but the fonts built into macOS don't seem to work with it. This is likely due to the version or format of the fonts under macOS. These fonts are Arial and Courier. I have exported them from Windows and zipped them up for your convenience.</p>
+                    <ul>
+                        <li>Download the fonts: <a href="https://github.com/tyrelius/Modding-Making-History/raw/master/files/winefonts.zip">ZIP</a>
+                                    <pre>
+MD5 (winefonts.zip) = fe634bddc6efd8b7c827a0c5c555814d
+</pre>
+                        </li>
+                        <li>Once you have the fonts downloaded and extracted, place them in this folder:
+                            <ul>
+                                <li><code>~/.wine/drive_c/windows/Fonts</code></li>
+                            </ul>
+                        </li>
+                        <li>You should have the following nine font files:
+                            <ul>
+                                <li>
+                                    <div class="pre-table">
+                                        <div class="t-row">
+                                            <div class="t-col">arial.ttf</div>
+                                            <div class="t-col">arialbd.ttf</div>
+                                            <div class="t-col">arialbi.ttf</div>
+                                            <div class="t-col">ariali.ttf</div>
+                                        </div>
+                                        <div class="t-row">
+                                            <div class="t-col">ariblk.ttf</div>
+                                        </div>
+                                        <div class="t-row">
+                                            <div class="t-col">cour.ttf</div>
+                                            <div class="t-col">courbd.ttf</div>
+                                            <div class="t-col">courbi.ttf</div>
+                                            <div class="t-col">couri.ttf</div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div id="postinstallmultiplayer" class="item col2">
+                    <h3>Multiplayer</h3>
+                    <p>I have not yet got the network stack running properly, so trying to play a multiplayer game under Wine will cause the game to crash or freeze.</p>
+                </div>
+                <!-- END ITEM -->
+                
+            </div>
+            <!-- END WINE -->
+            
+            <!-- BEGIN COPYRIGHT -->
+            <br />
+            <br />
+            <br />
+            <br />
+            <div class="container">
+                
+                <!-- BEGIN ITEM -->
+                <div class="item col4 expand-disable">
+                    <div class="disclaimer">
+                        <p>Making History, Making History: The Calm and the Storm, and Making History: The Calm and the Storm Gold Edition are U.S. and/or internationally registered trademarks of Factus Games LLC. Other brands are trademarks of their respective trademark holder.</p>
+                        <p>The information provided on this site is provided "as is" and the author disclaims all warranties with regard to this information. In no event shall the author be liable for any special, direct, indiret, or consequential damages or any damages whatsoever resulting from loss of use, data, or profits, whether in an action of contract, negligence or other tortious action, arising out of or in connection with the use or performance of this information. Use at your own risk.</p>
+                        <p>This website collects data about your activities that does not personally or directly identify you when you visit this website. This information may include the content you view, the date and time that you view this content, the features of this website that you use, or the location information associated with your IP address. We use the information we collect to make improvements to the experience of using this website. Use of this website implies your consent to this policy.</p>
+                    </div>
+                </div>
+                <!-- END ITEM -->
+                
+            </div>
+            <!-- END COPYRIGHT -->
+        </div>
+        
+    </body>
+</html>
