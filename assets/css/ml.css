@@ -1,0 +1,3427 @@
+/* Override YUI */
+
+#doc3{
+    margin:0px;
+}
+
+th, td{
+    border:none;
+    padding:.25em
+}
+
+/* Muzzy Lane CSS */
+html, body{
+    background-color:#35342B;
+    color:#FFFFFF;
+    margin:0px;
+    padding:0px;
+    height:100%;
+    line-height:19px;
+}
+
+.fl{
+    float:left;
+}
+
+.fr{
+    float:right;
+}
+
+.cl{
+    clear:left;
+    height:0px;
+    font-size:0px;
+    line-height:0px;
+    width:0px;
+}
+
+.cr{
+    clear:right;
+    height:0px;
+    font-size:0%;
+    line-height:0px;
+    width:0px;
+}
+
+.cb{
+    clear:both;
+    height:0px;
+    font-size:0%;
+    line-height:0px;
+    width:0px;
+}
+
+/*****************************/
+/*        Main Links         */
+/*****************************/
+a:link{
+    color:#FFD794;
+    text-decoration:none;
+}
+
+a:visited{
+    color:#FFD794;
+    text-decoration:none;
+}
+
+a:hover{
+    color:#FFE0AD;
+    text-decoration:none;
+}
+
+a:active{
+    color:#FFD794;
+    text-decoration:none;
+}
+
+/*****************************/
+/*         Paddings          */
+/*****************************/
+.p10{
+    padding:10px;
+}
+
+.p20{
+    padding:20px;
+}
+
+.ptr10{
+    padding:10px 10px 0px 0px;
+}
+
+.ptb10{
+    padding:10px 0px 10px 0px;
+}
+
+.mtb10{
+    margin:10px 0px 10px 0px;
+}
+
+.mb10{
+    margin:0px 0px 10px 0px;
+}
+
+.m7{
+    margin:7px;
+}
+
+.m10{
+    margin:10px;
+}
+
+.mrl10{
+    margin:0px 10px 0px 10px;
+}
+
+.p7{
+    padding:7px;
+}
+
+/*****************************/
+/*        Horz List          */
+/*****************************/
+ul.horz{
+    padding:0px;
+    margin:0px;
+}
+
+ul.horz li{
+    list-style-type:none;
+    display:inline;
+}
+
+#holder{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:5;
+    display:none;
+}
+
+/*****************************/
+/*         Headings          */
+/*****************************/
+h1{
+    font-size:22px;
+    color:#FFFFFF;
+    margin:0px;
+    padding:0px;
+}
+
+h2{
+   font-size:24px;
+   font-weight:normal;
+   color:#FFCC33;
+   margin:0px 0px 10px 0px;
+   padding:0px;
+}
+
+div .h, div .h2, div .h3{
+    margin-top:0px;
+    padding:7px 7px 0px 7px;
+    height:26px;
+    background-color:#656557;
+    border-bottom:1px solid #8A8770;
+}
+
+div .h2{
+    border-top:1px solid #8A8770;
+}
+
+div .h3{
+    padding:4px 7px 3px 7px;
+    font-size:167%;
+    font-weight:bold;
+}
+
+.h img.left, .h3 img.left{
+    margin:0px 10px 0px 0px;
+    float:left;
+}
+
+div .h span, div .h2 span{
+    font-size:123.1%;
+    font-weight:bold;
+}
+
+div .h3 span{
+    display:block;
+    margin-top:2px;
+    margin-left:10px;
+}
+
+div .h span.small{
+    font-size:93%;
+    font-weight:bold;
+}
+
+div .h .right{
+    float:right;
+}
+
+div .ih{
+    border-bottom:1px solid #8A8770;
+    margin:0px;
+    padding:0px;
+    line-height:0;
+}
+
+div .ih img{
+    margin:0px;
+    padding:0px;
+}
+
+.yellow{
+    color:#FFCC33;
+}
+.orange{
+    color:#FFAA1B;
+}
+.grey{
+    color:#cccccc;
+}
+.red{
+    color:#FF0000;
+}
+.green{
+    color:#66CC00;
+}
+.tan{
+    color:#8A8770;
+}
+
+.bgred{
+    background-color:#990000;
+}
+.bggreen{
+    background-color:#669900;
+}
+.bgdarkgrey{
+    background-color:#999999;
+}
+.bggrey{
+    background-color:#666666;
+}
+.bgpurple{
+    background-color:#9900CC;
+}
+.bgblue{
+    background-color:#003399;
+}
+
+a.product_mh{
+    font-size:85%;
+    font-weight:normal;
+    color:#FF0000;
+}
+a.product_mhgold{
+    font-size:85%;
+    font-weight:normal;
+    color:#FF9933;
+}
+a.product_mhii{
+    font-size:85%;
+    font-weight:normal;
+    color:#99CC00;
+}
+
+/*****************************/
+/*      Header & Footer      */
+/*****************************/
+#header{
+    margin-bottom:10px;
+}
+
+#header #banner{
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/top_nav/head.jpg') no-repeat;
+    height:91px;
+}
+
+#header #nav{
+    margin:1px 0px 1px 0px;
+    font-size:85%;
+    font-weight:bold;
+    height:24px;
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/top_nav/nav_bg.jpg') repeat-x;
+}
+
+#header #nav ul{
+    margin:0px;
+    padding:0px;
+}
+
+#header #nav ul li{
+    display: inline;
+    list-style-type: none;
+    height:inherit;
+}
+
+#header a.option, #header div.option{
+    height:24px;
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/top_nav/nav_right.jpg') no-repeat right;
+    float:left;
+}
+
+#header a.option div, #header div.option div{
+    margin:0px 21px 0px 0px;
+    padding:1px 0px 0px 21px;
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/top_nav/nav_left.jpg') no-repeat;
+    height:inherit;
+}
+
+
+#footer{
+    margin:20px 0px 20px 0px;
+}
+
+/*****************************/
+/*          Holder           */
+/*****************************/
+.holder{
+    background-color:#414036;
+    padding:20px 5px 5px 5px;
+    font-size:138.5%;
+    font-weight:normal;
+    text-align:center;
+    vertical-align:middle;
+    height:47px;
+}
+
+/*****************************/
+/*     Error & Success       */
+/*****************************/
+div.success{
+    margin-top:5px;
+    margin-bottom:10px;
+    padding:1px 0px 3px 0px;
+    background:url('/web/20101126010602im_/http://making-history.com/img/success_icon.png') no-repeat scroll 0.5em 0.1em;
+}
+
+div.success h2{
+    margin:2px 0px 0px 45px;
+    font-weight:normal;
+    font-size:14px;
+    color:#ffffff;
+}
+
+div.error{
+    margin-top:5px;
+    margin-bottom:10px;
+    padding:1px 0px 3px 0px;
+    background:url('/web/20101126010602im_/http://making-history.com/img/error_icon.png') no-repeat scroll 0.5em 0.1em;
+}
+
+div.error h2{
+    margin:2px 0px 0px 45px;
+    font-weight:normal;
+    font-size:14px;
+    color:#ffffff;
+}
+
+div.title{
+    padding-bottom:10px;
+    font-size:123.1%;
+    font-weight:bold;
+    height:18px;
+}
+
+/*****************************/
+/*          Button           */
+/*****************************/
+
+a.brown_button{
+    margin-left:10px;
+    background-color:#47473D;
+    background:#47473D url('/web/20101126010602im_/http://making-history.com/img/brown_button.gif') left top;
+    height:19px;
+    overflow:hidden;
+}
+.selector span.tool {
+    width: 1px;
+    white-space: nowrap;
+}
+a.brown_button span{
+    margin-left:10px;
+    padding-right:10px;
+    background:#47473D url('/web/20101126010602im_/http://making-history.com/img/brown_button.gif') right top;
+    font-size:85%;
+    float:left;
+}
+
+a.brown_button_dark_bg{
+    background-color:#47473D;
+    background:#47473D url('/web/20101126010602im_/http://making-history.com/img/brown_button_dark_bg.gif') left top;
+    height:19px;
+    overflow:hidden;
+}
+
+a.brown_button_dark_bg span{
+    margin-left:10px;
+    padding-right:10px;
+    background:#47473D url('/web/20101126010602im_/http://making-history.com/img/brown_button_dark_bg.gif') right top;
+    font-size:85%;
+    float:left;
+}
+
+span.brown_btn_left a:link, span.brown_btn_left a:visited, span.brown_btn_left a:active{
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/buttons/brown-right.gif') no-repeat scroll 100% 0px;
+    height:22px;
+    display:block;
+    color:#FFFFFF;
+    padding:0px 10px 0px 10px;
+}
+span.brown_btn_left a:hover{
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/buttons/brown-right.gif') no-repeat scroll 100% -22px;
+    height:22px;
+    display:block;
+    color:#FFFFFF;
+    padding:0px 10px 0px 10px;
+}
+span.brown_btn_left{
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/buttons/brown-left.gif') no-repeat scroll 0 0px;
+    padding:0;
+    height:auto;
+    float:left;
+}
+span.brown_btn_left:hover{
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/buttons/brown-left.gif') no-repeat scroll 0 -22px;
+    padding:0;
+    height:auto;
+    float:left;
+}
+
+a.dark_brown_button{
+    background:#35342B url('/web/20101126010602im_/http://making-history.com/img/dark_brown_button.gif') right top;
+    height:19px;
+    overflow:hidden;
+    display:block;
+    width:auto;
+    text-align:center;
+    cursor:pointer;
+}
+
+a.dark_brown_button span{
+    padding-left:10px;
+    padding-right:10px;
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/dark_brown_button.gif') left top;
+    font-size:85%;
+    float:left;
+}
+
+span.yellow_btn a:link, span.yellow_btn a:visited, span.yellow_btn a:active{
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/buttons/yellow-right.gif') no-repeat scroll 100% 0px;
+    height:22px;
+    display:block;
+    color:#FFFFFF;
+    padding:0px 10px 0px 10px;
+}
+span.yellow_btn a:hover{
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/buttons/yellow-right.gif') no-repeat scroll 100% -22px;
+    height:22px;
+    display:block;
+    color:#FFFFFF;
+    padding:0px 10px 0px 10px;
+}
+span.yellow_btn{
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/buttons/yellow-left.gif') no-repeat scroll 0 0px;
+    padding:0;
+    height:auto;
+    float:right;
+}
+span.yellow_btn:hover{
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/buttons/yellow-left.gif') no-repeat scroll 0 -22px;
+    padding:0;
+    height:auto;
+    float:right;
+}
+
+span.brown_btn a:link, span.brown_btn a:visited, span.brown_btn a:active{
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/buttons/brown-right.gif') no-repeat scroll 100% 0px;
+    height:22px;
+    display:block;
+    color:#FFFFFF;
+    padding:0px 10px 0px 10px;
+}
+span.brown_btn a:hover{
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/buttons/brown-right.gif') no-repeat scroll 100% -22px;
+    height:22px;
+    display:block;
+    color:#FFFFFF;
+    padding:0px 10px 0px 10px;
+}
+span.brown_btn{
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/buttons/brown-left.gif') no-repeat scroll 0 0px;
+    padding:0;
+    height:auto;
+    float:right;
+}
+span.brown_btn:hover{
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/buttons/brown-left.gif') no-repeat scroll 0 -22px;
+    padding:0;
+    height:auto;
+    float:right;
+}
+
+a.scenario_update:link, a.scenario_update:visited, a.scenario_update:active{
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/buttons/update.gif') no-repeat scroll 100% 0px;
+    height:17px;
+    width:18px;
+    display:block;
+    color:#FFFFFF;
+}
+a.scenario_update:hover{
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/buttons/update.gif') no-repeat scroll 100% -17px;
+    height:17px;
+    width:18px;
+    display:block;
+    color:#FFFFFF;
+}
+
+a.brown_btn65{
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/brown_btn.png') no-repeat 0px 0px;
+    font-size:93%;
+    width:65px;
+    height:21px;
+    display:block;
+    color:#FFFFFF;
+    text-align:center;
+    vertical-align:middle;
+    margin:0px 3px 0px 3px;
+}
+
+a.brown_btn65:hover{
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/brown_btn.png') no-repeat 0px -21px;
+}
+
+/*****************************/
+/*         Bug Report        */
+/*****************************/
+
+#bugreport div{
+    margin-top:10px;
+}
+
+#bugreport div label{
+    width:120px;
+    display:block;
+    float:left;
+}
+
+#bugreport div input{
+    width:65%;
+}
+/*****************************/
+/*         Spotlight         */
+/*****************************/
+#spotlight{
+    height:292px;
+    padding:9px 0px 0px 9px;
+    background-color:#47473D;
+    border:1px solid #8A8770;
+    margin-bottom:12px;
+    overflow:hidden;
+}
+
+#spotlight .options{
+    width:139px;
+    text-align:center;
+    margin:0px 9px 0px 0px;
+    float:left;
+}
+
+#spotlight .featured{
+    border:1px solid #89866F;
+    width:472px;
+    height:280px;
+    background-repeat:no-repeat;
+    display:block;
+    float:left;
+}
+
+#spotlight .options a{
+    width:137px;
+    height:63px;
+    border:1px solid #47473D;
+    background-color:#656557;
+    display:block;
+    margin:0px 0px 8px 0px;
+}
+#spotlight .options a.activeSlide{
+    width:137px;
+    height:63px;
+    border:1px solid #DFA85C;
+    background-color:#656557;
+    display:block;
+    margin:0px 0px 8px 0px;
+}
+
+/*****************************/
+/*          Column           */
+/*****************************/
+div.column{
+    border:1px solid #8A8770;
+}
+
+/*****************************/
+/*            Box            */
+/*****************************/
+.box{
+    border:1px solid #8A8770;
+    margin-bottom:12px;
+}
+
+.box2{
+    border:1px solid #989770;
+    background-color:#47473D;
+    padding:8px;
+}
+
+.header{
+    display:block;
+    height:35px;
+    width:100%;
+    background:#81816D url('/web/20101126010602im_/http://making-history.com/img/header.png') no-repeat;
+    margin:0px 0px 5px 0px;
+}
+.header .r{
+    display:block;
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/header-right.png') no-repeat top right;
+    height:inherit;
+    width:inherit;
+}
+.header .r h1{
+    font-size:138.5%;
+    font-weight:normal;
+    padding:7px 0px 0px 10px;
+    float:left;
+}
+.header .r .icon{
+    margin:7px 0px 0px 7px;
+    float:left;
+}
+
+.header .r .btn124{
+    display:block;
+    width:124px;
+    height:21px;
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/header_button.png') no-repeat;
+    overflow:hidden;
+    text-align:center;
+    vertical-align:middle;
+    color:#FFFFFF;
+    font-size:93%;
+    margin:7px 7px 0px 0px;
+}
+.header .r .btn124:hover{
+    color:#EAEAEA;
+}
+
+.header .r .btn81{
+    display:block;
+    width:81px;
+    height:21px;
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/header_button81.png') no-repeat;
+    overflow:hidden;
+    text-align:center;
+    vertical-align:middle;
+    color:#FFFFFF;
+    font-size:93%;
+    margin:7px 7px 0px 0px;
+}
+.header .r .btn81:hover{
+    color:#EAEAEA;
+}
+
+
+/*****************************/
+/*           Slices          */
+/*****************************/
+.follow_head{
+    position:relative;
+    z-index:1000;
+    top:-32px;
+    left:112px;
+}
+
+#follow_us_slice{
+    background-image:url('/web/20101126010602im_/http://making-history.com/img/follow_us.jpg');
+    width:312px;
+    height:74px;
+    margin:0px 0px 10px 0px;
+}
+#mh2_slice{
+    background-image:url('/web/20101126010602im_/http://making-history.com/img/mh2_slice.jpg');
+    width:312px;
+    height:70px;
+    margin:0px 0px 10px 0px;
+}
+#mhgold_slice{
+    background-image:url('/web/20101126010602im_/http://making-history.com/img/mhgold_slice.jpg');
+    width:312px;
+    height:70px;
+    margin:0px 0px 10px 0px;
+}
+#mh_slice{
+    background-image:url('/web/20101126010602im_/http://making-history.com/img/mh_slice.jpg');
+    width:312px;
+    height:70px;
+    margin:0px 0px 10px 0px;
+}
+
+/*****************************/
+/*            News           */
+/*****************************/
+#news a{
+    font-weight:bold;
+}
+
+#news .h{
+    background-image:url('/web/20101126010602im_/http://making-history.com/img/news_title_bg.jpg');
+}
+
+#news ul{
+    margin:10px;
+}
+
+#news ul li{
+    list-style-type: none;
+    margin:0px 0px 12px 0px;
+}
+
+.news .story{
+    padding:10px;
+    border-bottom:1px solid #8A8770;
+}
+
+.news .story a{
+    font-weight:bold;
+    font-size:123.1%;
+}
+
+.news .story span{
+    font-size:85%;
+    color:#cccccc;
+}
+
+.news .story div{
+    font-size:108%;
+}
+
+/*****************************/
+/*         Community         */
+/*****************************/
+#community{
+    margin-bottom:12px;
+    overflow:hidden;
+}
+
+#community a.user{
+    font-weight:bold;
+    color:#FFD794;
+}
+
+#community .date{
+    color:#FFAA1B;
+    font-size:85%;
+}
+
+#community ul{
+    margin:10px;
+}
+
+#community ul li{
+    list-style-type: none;
+    margin:0px 0px 12px 0px;
+}
+
+/*****************************/
+/*         Community         */
+/*****************************/
+
+#blog h2{
+    margin:0px 0px 5px 0px;
+    padding:0px;
+}
+
+#blog .post{
+    margin-bottom:30px;
+}
+
+#blog .subtitle{
+    margin:0px 0px 5px 0px;
+    font-size:86%;
+}
+
+#blog .body{
+    font-size:108%;
+    color:#FFFFFF;
+}
+
+.b_fl{
+    float:left;
+    margin:7px 7px 7px 0px;
+}
+.b_fr{
+    float:right;
+    margin:7px 0px 7px 7px;
+}
+
+/*****************************/
+/*         Downloads         */
+/*****************************/
+#downloads .download{
+    margin-bottom:15px;
+}
+
+#downloads .download a{
+    font-size:123.1%;
+    font-weight:bold;
+}
+
+#downloads .download ul{
+    margin:0px 0px 0px 30px;
+}
+
+/*****************************/
+/*       Scenario List       */
+/*****************************/
+#scenario_list{
+    border:1px solid #8A8770;
+    margin-bottom:12px;
+}
+
+#scenario_list .scenarios{
+    padding:9px 9px 7px 9px;
+}
+
+#featured{
+    
+}
+
+.tabs{
+    z-index:10;
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/admin/tab_bottom.gif') repeat-x bottom;
+}
+
+.tabs span, .tabs a{
+    display:block;
+    height:24px;
+    float:left;
+    margin:0px 5px 0px 0px;
+    padding:3px 15px 0px 15px;
+    text-align:center;
+    color:#FFFFFF;
+    font-weight:bold;
+    background:#4B4B42;
+    border-top:1px solid #767360;
+    border-right:1px solid #767360;
+    border-bottom:1px solid #8A8770;
+    border-left:1px solid #767360;
+    cursor:pointer;
+}
+
+.tabs span.selected, .tabs a.selected{
+    background-color:#656557;
+    
+    border-top:1px solid #8A8770;
+    border-right:1px solid #8A8770;
+    border-bottom:1px solid #656557;
+    border-left:1px solid #8A8770;
+    cursor:pointer;
+}
+
+.divider{
+    background-color:#656557;
+    border:1px solid #8A8770;
+    height:6px;
+    margin:-1px 0px 0px 0px;
+    font-size:0px;
+    z-index:0;
+}
+
+.srow{
+    border:1px solid #8A8770;
+    background-color:#4B4B42;
+    height:100px;
+    margin-bottom:2px;
+}
+
+.srowshort{
+    background-color:#414036;
+    margin:0px 0px 5px 0px;
+    padding:5px;
+    overflow:auto;
+    width:48.25%;
+}
+.srowshort.odd{
+    margin-right:5px;
+}
+
+#featured .featured_list{
+    padding:9px 9px 7px 9px;
+    border-top:0px solid #8A8770;
+    border-right:1px solid #8A8770;
+    border-bottom:1px solid #8A8770;
+    border-left:1px solid #8A8770;
+}
+#featured #top_rated, #featured #most_played{
+    display:none;
+}
+
+.srow .info{
+    margin-top:2px;
+    font-size:85%;
+}
+
+.srow .type{
+    margin:2px 2px 0px 0px;
+}
+
+.srowshort .info{
+    line-height:14px;
+}
+
+.srowshort .downloads{
+    font-size:85%;
+}
+
+.srow .info div.desc{
+    height:37px;    
+}
+
+.srow .info .stats .developer{
+    width:175px;
+    margin-right:5px;
+    float:left;
+}
+
+.srow .info .stats .plays{
+    width:88px;
+    margin-right:5px;
+    float:left;
+}
+
+.srow .info .stats .stars{
+    float:left;
+}
+
+.srow .info .stats a,
+.srow .info .stats span{
+    font-size:123.1%;
+    font-weight:bold;
+}
+
+.srow .info .stats span.title{
+    font-size:108%;
+}
+
+.srow img, .srowshort img{
+    margin-right:10px;
+}
+
+.srowshort .stars{
+    margin:5px 0px 0px 0px;
+}
+
+.srow a{
+    font-size:167%;
+    font-weight:bold;
+}
+
+/*****************************/
+/*          TOP NAV          */
+/*****************************/
+#top_nav{
+    width:100%;
+    height:31px;
+    margin-top:2px;
+    background-image:url('/web/20101126010602im_/http://making-history.com/img/top_nav/middle.png');
+}
+
+#top_nav .left{
+    width:5px;
+    height:31px;
+    background-image:url('/web/20101126010602im_/http://making-history.com/img/top_nav/left.png');
+    float:left;
+}
+
+#top_nav .middle{
+    height:25px;
+    padding-top:6px;
+    padding-left:24px;
+    float:left;
+}
+
+#top_nav .right{
+    width:5px;
+    height:31px;
+    background-image:url('/web/20101126010602im_/http://making-history.com/img/top_nav/right.png');
+    float:right;
+}
+
+#top_nav a:link, #top_nav a:visited, #top_nav a:active{
+    color:#FFFFFF;
+    font-size:14px;
+    margin-right:30px;
+    text-decoration:none;
+    font-weight:normal;
+}
+
+#top_nav a:hover{
+    color:#CCCCCC;
+    font-size:14px;
+    margin-right:30px;
+    text-decoration:none;
+    font-weight:normal;
+}
+
+/*****************************/
+/*         Home News         */
+/*****************************/
+
+div.statement{
+    margin-top:15px;
+}
+
+div.statement a{
+    font-weight:bold;
+}
+
+div.statement p{
+    font-size:14px;
+}
+
+/*****************************/
+/*           Login           */
+/*****************************/
+div.login{
+    float:right;
+    width:230px;
+    margin:8px 10px 0px 0px;
+}
+
+div.login div{
+    margin:0px 0px 5px 0px;
+}
+
+form .text{
+    background-color:#464539;
+    border:1px solid #B4B496;
+    color:#FFFFFF;
+}
+
+div.login input.username, div.login input.password{
+    padding:2px 0px 0px 2px;
+    width:106px;
+    height:19px;
+}
+
+div.loggedin{
+    float:right;
+    margin:15px 10px 0px 0px;
+    width:230px;
+    line-height:15px;
+}
+
+div.loggedin img.icon{
+    margin:0px 5px 0px 0px;
+    border:1px solid #DFA85C;
+}
+
+div.loggedin .stitle{
+    font-size:85%;
+}
+
+div.loggedin .stat{
+    margin:0px 17px 0px 0px;
+}
+div.loggedin .stat b{
+    margin:0px 0px 0px 3px;
+}
+
+div.register .register_form, div.columnlogin .login_form, div.forgot_password{
+    font-weight:bold;
+    padding:10px 10px 10px 10px;
+}
+
+div.columnlogin .login_form{
+    border-bottom:1px solid #8A8770;
+}
+
+div.register .register_form div, div.columnlogin .login_form div, div.forgot_password div{
+    margin-top:10px;
+}
+
+div.columnlogin .forgot_password img.title{
+    margin-bottom:20px;
+}
+
+div.register .register_form p, div.columnlogin .login_form p, div.columnlogin .forgot_password p{
+    margin:0px 0px 7px 0px;
+}
+
+div.register .register_form input.text, div.columnlogin .login_form input.text, div.columnlogin .forgot_password input.text{
+    background:#464539;
+    border:1px solid #B4B496;
+    color:#FFFFFF;
+    font-size:12px;
+    padding:2px;
+}
+
+div.register .register_form select{
+    background:#464539;
+    border:1px solid #B4B496;
+    color:#FFFFFF;
+    font-size:12px;
+    padding:2px;
+}
+
+div.columnlogin .forgot_password{
+    border-top:1px solid #474D3F;
+    font-weight:bold;
+}
+
+div.register_desc, div.login_desc{
+    font-size:14px;
+}
+
+div.login_desc .not_registered{
+    font-size:16px;
+    font-weight:bold;
+}
+
+/*****************************/
+/*           User            */
+/*****************************/
+
+#user_colm{
+    border:1px solid #8A8770;
+    background-color:#464539;
+}
+
+#user_colm .info{
+    margin:10px;
+    font-size:108%;
+}
+#user_colm .info .icon{
+    margin:0px 0px 0px 43px
+}
+#user_colm .info a{
+    font-size:138.5%;
+    font-weight:normal;
+}
+#user_colm .info ul{
+    margin:0px;
+    padding:0px;
+}
+#user_colm .info ul li{
+    list-style:none;
+    padding:4px 0px 4px 0px;
+}
+
+#user_colm #friends{
+    background-color:#545345;
+    padding:10px 10px 0px 10px;
+    min-height:0px;
+}
+
+#user_colm #friends .title{
+    overflow:auto;
+    font-size:138.5%;
+    font-weight:normal;
+}
+
+#friends a{
+    float:left;
+    margin:0px 10px 10px 0px;
+}
+
+#friends a.last{
+    float:left;
+    margin:0px 0px 10px 0px;
+}
+
+#user_colm .nav ul{
+    margin:0px;
+    padding:0px;
+}
+#user_colm .nav ul li{
+    list-style:none;
+    border-bottom:1px solid #545345;
+}
+
+#user_colm .nav ul li.selected{
+    background-color:#3A3930;
+    color:#FFFFFF;
+}
+
+#user_colm .nav ul li a{
+    display:block;
+    font-size:108%;
+    padding:6px 10px 5px 10px;
+    overflow:auto;
+}
+#user_colm .nav ul li a:hover{
+    background-color:#3A3930;
+}
+
+#user_colm .nav ul li.selected a{
+    display:block;
+    font-size:108%;
+    padding:6px 10px 5px 10px;
+    overflow:auto;
+    color:#FFFFFF;
+}
+#user_colm .nav ul li.selected a:hover{
+    background-color:#3A3930;
+    color:#FFFFFF;
+}
+
+#user_colm .nav ul li ul{
+    background-color:#464539;
+}
+#user_colm .nav ul li ul li{
+    border:0px;
+}
+#user_colm .nav ul li.selected ul li a{
+    color:#FFD794;
+    padding:6px 10px 7px 25px;
+}
+#user_colm .nav ul li.selected ul li a:hover{
+    color:#FFD794;
+}
+
+#user_colm .nav ul li.selected ul li.selected a{
+    color:#FFFFFF;
+    padding:6px 10px 7px 25px;
+    background-color:#464539;
+}
+#user_colm .nav ul li.selected ul li.selected a:hover{
+    color:#FFFFFF;
+    background-color:transparent;
+}
+
+
+div#user_top{
+    height:132px;
+    padding:7px;
+    margin-bottom:20px;
+    background-color:#464539;
+    border:1px solid #B4B496;
+}
+
+div.user_info{
+    font-size:108%;
+    float:left;
+}
+
+div#user_top .icon{
+    margin-right:15px;
+    border:1px solid #DFA85C;
+}
+
+div#user_top h1{
+    margin:0px 0px 8px 0px;
+    padding:0px 0px 0px 0px;
+    font-size:182%;
+    font-weight:normal;
+}
+
+div.user_nav{
+    float:right;
+    background-color:#35342B;
+    width:141px;
+    padding:6px 10px 3px 10px;
+}
+
+div.user_nav ul{
+    margin:0px;
+    padding:0px;
+}
+
+div.user_nav ul li{
+    list-style:none;
+    margin:0px 0px 5px 0px;
+}
+
+img.user_icon{
+    margin:0px 5px 0px 5px;
+    border:1px solid #8A8770;
+}
+
+span.friend_request div.count{
+    background:url('/web/20101126010602im_/http://making-history.com/img/user/count_bg.png') no-repeat;
+    width:22px;
+    height:20px;
+    color:#FFFFFF;
+    font-size:85%;
+    font-weight:bold;
+    text-align:center;
+    padding:1px 0px 0px 0px;
+    margin:30px 0px 0px 60px;
+    position:absolute;
+}
+
+span.messages div.count{
+    background:url('/web/20101126010602im_/http://making-history.com/img/user/count_bg.png') no-repeat;
+    width:22px;
+    height:20px;
+    color:#FFFFFF;
+    font-size:85%;
+    font-weight:bold;
+    text-align:center;
+    padding:1px 0px 0px 0px;
+    margin:30px 0px 0px 45px;
+    position:absolute;
+}
+
+.list h1{
+    font-weight:normal;
+    padding-bottom:10px;
+}
+
+.list div.row{
+    height:30px;
+}
+
+.list div.row2{
+    height:41px;
+}
+
+.list div.row img,
+.list div.row2 img{
+    margin-right:10px;
+}
+
+.list div.row2 span.date{
+    width:89px;
+    margin-right:10px;
+    display:block;
+}
+.list div.row2 span.plays{
+    width:134px;
+    margin-right:10px;
+    display:block;
+}
+.list div.row2 span.active_games{
+    width:154px;
+    margin-right:10px;
+    display:block;
+}
+
+
+.list div.row h2{
+    margin:6px 0px 0px 0px;
+    padding:0px;
+    font-size:14px;
+    float:left;
+    font-weight:normal;
+    color:#FFFFFF;
+}
+
+.list div.row em{
+    display:block;
+    margin:6px 0px 0px 0px;
+    padding:0px;
+    font-size:14px;
+    font-style:normal;
+    float:right;
+}
+
+/*****************************/
+/*           Grid            */
+/*****************************/
+
+.grid{
+    margin-bottom:10px;
+}
+
+.grid div.cell{
+    width:306px;
+    height:40px;
+    background:url('/web/20101126010602im_/http://making-history.com/img/user/bubble.png') no-repeat;
+    padding:5px;
+    float:left;
+}
+
+.grid div.cell .icon{
+    margin-right:7px;
+}
+
+.grid div.cell h2{
+    font-size:116%;
+    margin-bottom:3px;
+}
+
+.grid div.cell p{
+    margin-bottom:0px;
+}
+
+.grid div.odd{
+    margin:0px 10px 10px 0px;
+}
+
+.grid div.even{
+    margin:0px 0px 10px 0px;
+}
+
+.grid .arrows{
+    height:100%;
+}
+
+.grid a.up_arrow:link, .grid a.up_arrow:visited, .grid a.up_arrow:active{
+    background:transparent url("/web/20101126010602im_/http://making-history.com/img/user/up_arrow.gif") no-repeat 0px 0px;
+    width:5px;
+    height:3px;
+    display:block;
+    margin-bottom:34px;
+    font-size:0%;/* for ie 6 */
+}
+.grid a.up_arrow:hover{
+    width:5px;
+    height:3px;
+    background:transparent url("/web/20101126010602im_/http://making-history.com/img/user/up_arrow.gif") no-repeat 0px -3px;
+    display:block;
+    margin-bottom:34px;
+    font-size:0%;/* for ie 6 */
+}
+
+.grid a.down_arrow:link, .grid a.down_arrow:visited, .grid a.down_arrow:active{
+    background:transparent url("/web/20101126010602im_/http://making-history.com/img/user/down_arrow.gif") no-repeat 0px 0px;
+    width:5px;
+    height:3px;
+    display:block;
+    font-size:0%;/* for ie 6 */
+}
+.grid a.down_arrow:hover{
+    width:5px;
+    height:3px;
+    background:transparent url("/web/20101126010602im_/http://making-history.com/img/user/down_arrow.gif") no-repeat 0px -3px;
+    display:block;
+    font-size:0%;/* for ie 6 */
+}
+
+div.game_thin{
+    padding:4px 0px 4px 0px;
+    border-bottom:1px solid #474D3F;
+    height:30px;
+}
+
+div.game_thin h2{
+    padding:0px;
+    margin:5px 0px 0px 10px;
+    font-size:108%;
+    float:left;
+}
+
+
+/*****************************/
+/*           User            */
+/*****************************/
+
+div.narrow_list div.title{
+    padding-bottom:10px;
+    border-bottom:1px solid #474D3F;
+    font-size:123.1%;
+    font-weight:bold;
+    height:18px;
+}
+
+div.narrow_list div.row{
+    padding:4px 0px 4px 0px;
+    border-bottom:1px solid #474D3F;
+    height:30px;
+}
+
+div.narrow_list div.row h2{
+    padding:0px;
+    margin:5px 0px 0px 10px;
+    font-size:108%;
+    float:left;
+}
+
+div.your_creations{
+    border-bottom:1px solid #474D3F;
+    margin-bottom:20px;
+}
+
+div.settings div.row{
+    height:20px;
+}
+
+div.settings div.row h2{
+    height:20px;
+    margin:1px 0px 0px 10px;
+}
+
+div.row2 h2{
+    font-size:116%;
+    margin-bottom:3px;
+}
+
+div.settings div.row h2.selected{
+    color:#FFCC33;
+    font-weight:bold;
+}
+
+form#sig h4{
+    margin:10px 0px 10px 0px;
+}
+
+div#sig_preview{
+    margin:0px 0px 10px 0px;
+}
+
+form div.row{
+    padding:4px 0px 4px 0px;
+    border:0px solid #474D3F;
+    height:30px;
+}
+
+form div.row h2{
+    padding:0px;
+    margin:2px 0px 0px 10px;
+    font-size:108%;
+    width: 150px;
+    float:left;
+    font-weight:normal;
+    color:#FFFFFF;
+}
+
+
+form div.submit{
+    margin-top:10px;
+    margin-left:210px;
+}
+
+.mh_copy{
+    font-size:108%;
+}
+
+/*****************************/
+/*    Create Active Game     */
+/*****************************/
+#create_game{
+    
+}
+
+#create_game .step{
+    background-color:#414036;
+    padding:10px 10px 0px 10px;
+    margin:0px 0px 5px 0px;
+    overflow:auto;
+}
+
+#create_game .step h1{
+    font-weight:normal;
+    font-size:153.9%;
+}
+
+#create_game .step input.name{
+    margin:20px;
+    font-size:138.5%;
+    padding:5px;
+    width:50%;
+}
+
+#create_game .step .option{
+    font-size:123.1%;
+    margin:20px;
+    overflow:auto;
+}
+#create_game .step .option .value{
+    margin-right:10px;
+}
+
+#create_game .step label{
+    margin:0px 0px 0px 40px;
+}
+
+#create_game .step span.plus{
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/active_game/plus.png') no-repeat 0 0;
+    display:block;
+    height:16px;
+    width:16px;
+    margin:3px 0px 0px 0px;
+}
+#create_game .step span.plus:hover{
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/active_game/plus.png') no-repeat 0 -16px;
+    display:block;
+    height:16px;
+    width:16px;
+    margin:3px 0px 0px 0px;
+}
+
+#create_game .step span.minus{
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/active_game/minus.png') no-repeat 0 0;
+    display:block;
+    height:16px;
+    width:16px;
+    margin:3px 0px 0px 3px;
+}
+#create_game .step span.minus:hover{
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/active_game/minus.png') no-repeat 0 -16px;
+    display:block;
+    height:16px;
+    width:16px;
+    margin:3px 0px 0px 3px;
+}
+
+#create_game .step .ai_difficulty{
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/active_game/difficulty.png') no-repeat;
+    width:320px;
+    height:32px;
+    margin:0px 10px 0px 10px;
+}
+
+.ai_difficulty .level{
+    width:32px;
+    height:26px;
+    font-size:138.5%;
+    text-align:center;
+    padding:6px 0px 0px 0px;
+    cursor:pointer;
+}
+
+.ai_difficulty .level.selected{
+    width:30px;
+    height:24px;
+    border:1px solid #FFFFFF;
+    padding:5px 0px 0px 0px;
+}
+
+.ai_difficulty .level:hover{
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/white_10per.png');
+    font-size:138.5%;
+    text-align:center;
+    cursor:pointer;
+}
+
+/*****************************/
+/*         Products          */
+/*****************************/
+
+#product{
+    border:1px solid #8A8770;
+    background-color:#656557;
+    padding:0px 15px 14px 14px;
+}
+
+#product #header{
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/games/mh2-top.jpg') no-repeat;
+    width:943px;
+    height:377px;
+}
+
+#product #mhgold_header{
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/games/mhgold-top.jpg') no-repeat;
+    width:943px;
+    height:377px;
+}
+
+#product #mh_header{
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/games/mh-top.jpg') no-repeat;
+    width:943px;
+    height:377px;
+}
+
+#product .mhpurchase{
+    float:left;
+    margin:154px 0px 0px 294px;
+}
+
+#product .preorder{
+    float:left;
+    margin:154px 0px 0px 144px;
+}
+
+#product .mhiipurchase{
+    float:left;
+    margin:154px 0px 0px 140px;
+    width:360px;
+    height:195px;
+}
+
+#product .trailer{
+    float:right;
+    margin:172px 154px 0px 0px;
+}
+
+#product #bottom{
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/games/footer.gif') top no-repeat;
+    height:4px;
+}
+
+#product_tabs{
+    margin-top:10px;
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/games/tab_bottom_bar.gif') bottom no-repeat;
+    height:32px;
+}
+
+#product_tabs a{
+    margin-right:1px;
+}
+
+#product #tab_content{
+    background:#BEB8A4 url('/web/20101126010602im_/http://making-history.com/img/games/vert_bg.gif') repeat-y;
+    margin:0px;
+}
+
+#product #tab_content #content{
+    margin:0px 4px 0px 4px;
+    padding:12px;
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/games/map_bg.jpg') no-repeat;
+    color:#000000;
+    font-size:108%;
+    line-height:24px;
+}
+
+#product #tab_content #content .em{
+    font-size:138%;
+    font-style:italic;
+    color:#655A3E;
+    text-align:center;
+    line-height:25px;
+    margin:10px 10px;
+}
+
+#game_nav{
+    margin:7px 0px 7px 0px;
+}
+
+#game_nav a{
+    color:#000000;
+    font-size:123.1%;
+    font-weight:bold;
+    margin:0px 20px 0px 5px;
+}
+
+#game_nav a.selected{
+    color:#FFFFFF;
+}
+
+#game_features{
+    margin-top:20px;
+}
+
+#game_zebra .odd{
+    background-color:#B5B09C;
+}
+#game_zebra table{
+    margin-top:10px;
+}
+#game_zebra table td{
+    padding:9px 9px 9px 9px;
+}
+#game_zebra table tr td.icon{
+    text-align:center;
+    line-height:0px;
+}
+#game_zebra table tr td.desc{
+    vertical-align:top;
+    color:#5a5338;
+    font-size:108%;
+}
+#game_zebra table tr td.desc em{
+    font-size:138.5%;  
+}
+#game_zebra table tr td.desc b{
+    font-size:138.5%;
+    margin-bottom:10px;
+    display:block;
+}
+
+#gallery{
+    margin-left:5px;
+}
+
+#gallery .item{
+    background-color:#B2AC99;
+    padding:10px;
+    margin:0px 11px 23px 11px;
+    line-height:0px;
+}
+
+#gallery a{
+    display:block;
+}
+
+#product .wrapper{
+    background-color:#B2AC99;
+    padding:10px 10px 0px 10px;
+    line-height:0px;
+}
+
+#product .wrapper .item{
+    margin:0px 0px 10px 0px;
+    display:block;
+    padding:0px;
+}
+
+#mh_banner{
+    width:974px;
+    height:203px;
+    background-image:url('/web/20101126010602im_/http://making-history.com/img/products/mh_banner.png');
+    
+    margin:0px 0px 16px 0px;
+}
+
+#mhg_banner{
+    width:974px;
+    height:203px;
+    background-image:url('/web/20101126010602im_/http://making-history.com/img/products/mh_gold_banner.png');
+    
+    margin:0px 0px 16px 0px;
+}
+
+/*****************************/
+/*         Tutorial          */
+/*****************************/
+#tutorial{
+    margin:0px 4px 0px 4px;
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/games/map_bg.jpg') no-repeat;
+    color:#000000;
+    font-size:123.1%;
+    line-height:24px;
+}
+
+#tutorial .section{
+    margin:15px 0px 0px 0px;
+    padding:12px;
+}
+
+#tutorial div.h1{
+    margin-bottom:10px;
+    background-color:#B2AC99;
+    overflow:auto;
+    margin:0px 0px 20px 0px;
+}
+
+#tutorial h1.first{
+    margin:0px;
+    color:#5A5338;
+    padding:30px 0px 0px 10px;
+    font-weight:normal;
+    font-size:167%;
+    background-color:transparent;
+}
+
+#tutorial div.h1 h1{
+    font-size:167%;
+    color:#5A5338;
+    font-weight:normal;
+    padding:10px 0px 10px 10px;
+}
+
+#tutorial div.h1 a{
+    background-color:#A09A86;
+    color:#FFFFFF;
+    font-size:108%;
+    margin:1px;
+    padding:9px 10px 9px 10px
+}
+#tutorial div.h1 a:hover{
+    background-color:#A6A08B;
+}
+
+
+#tutorial ol{
+    margin:20px 0px 20px 10px;
+}
+
+#tutorial ol li{
+    background-color:#D2CCB8;
+    margin:10px 0px 10px 0px;
+    border-left:2px solid #5A5338;
+    list-style:none;
+    padding:10px;
+}
+
+#tutorial img{
+    display:block;
+    border:10px solid #B2AC99;
+    margin:0 auto;
+    margin-bottom:20px;
+}
+
+ul.tutorial_sections{
+    width:225px;
+    background-color:#A09A86;
+    padding:5px 0px 5px 0px;
+    margin:80px 12px 0px 10px;
+}
+
+ul.tutorial_sections li{
+    list-style:none;
+    padding:0px 0px 0px 15px;
+    margin:8px 0px 8px 0px;
+    font-size:108%;
+    font-weight:normal;
+}
+
+ul.tutorial_sections li a{
+    color:#FFFFFF;
+}
+
+
+/*****************************/
+/*          Models           */
+/*****************************/
+.model_option{
+    border:1px solid #898770;
+    background-color:#646557;
+    margin-bottom:9px;
+    width:136px;
+    height:61px;
+}
+
+.model_option.selected{
+    border:1px solid #E0A85D;
+}
+
+.biplanes{
+    background:#646557 url('/web/20101126010602im_/http://making-history.com/img/products/models/biplanes.gif') no-repeat 0 0;
+    display:block;
+}
+.biplanes.selected{
+    background:#646557 url('/web/20101126010602im_/http://making-history.com/img/products/models/biplanes.gif') no-repeat 0 -61px;
+    display:block;
+}
+
+.biplanebombers{
+    background:#646557 url('/web/20101126010602im_/http://making-history.com/img/products/models/biplanes_bombers.gif') no-repeat 0 0;
+    display:block;
+}
+.biplanebombers.selected{
+    background:#646557 url('/web/20101126010602im_/http://making-history.com/img/products/models/biplanes_bombers.gif') no-repeat 0 -61px;
+    display:block;
+}
+
+.superheavytank{
+    background:#646557 url('/web/20101126010602im_/http://making-history.com/img/products/models/super_heavy_tank.gif') no-repeat 0 0;
+    display:block;
+}
+.superheavytank.selected{
+    background:#646557 url('/web/20101126010602im_/http://making-history.com/img/products/models/super_heavy_tank.gif') no-repeat 0 -61px;
+    display:block;
+}
+
+.earlymonoplanefighters{
+    background:#646557 url('/web/20101126010602im_/http://making-history.com/img/products/models/early_monoplane_fighters.gif') no-repeat 0 0;
+    display:block;
+}
+.earlymonoplanefighters.selected{
+    background:#646557 url('/web/20101126010602im_/http://making-history.com/img/products/models/early_monoplane_fighters.gif') no-repeat 0 -61px;
+    display:block;
+}
+
+.heavyfighters{
+    background:#646557 url('/web/20101126010602im_/http://making-history.com/img/products/models/heavy_fighters.gif') no-repeat 0 0;
+    display:block;
+}
+.heavyfighters.selected{
+    background:#646557 url('/web/20101126010602im_/http://making-history.com/img/products/models/heavy_fighters.gif') no-repeat 0 -61px;
+    display:block;
+}
+
+.airborneinf{
+    background:#646557 url('/web/20101126010602im_/http://making-history.com/img/products/models/airborne_inf.gif') no-repeat 0 0;
+    display:block;
+}
+.airborneinf.selected{
+    background:#646557 url('/web/20101126010602im_/http://making-history.com/img/products/models/airborne_inf.gif') no-repeat 0 -61px;
+    display:block;
+}
+
+.engineerinf{
+    background:#646557 url('/web/20101126010602im_/http://making-history.com/img/products/models/engineer_inf.gif') no-repeat 0 0;
+    display:block;
+}
+.engineerinf.selected{
+    background:#646557 url('/web/20101126010602im_/http://making-history.com/img/products/models/engineer_inf.gif') no-repeat 0 -61px;
+    display:block;
+}
+
+.marineinf{
+    background:#646557 url('/web/20101126010602im_/http://making-history.com/img/products/models/marine_inf.gif') no-repeat 0 0;
+    display:block;
+}
+.marineinf.selected{
+    background:#646557 url('/web/20101126010602im_/http://making-history.com/img/products/models/marine_inf.gif') no-repeat 0 -61px;
+    display:block;
+}
+
+.mountaininf{
+    background:#646557 url('/web/20101126010602im_/http://making-history.com/img/products/models/mountain_inf.gif') no-repeat 0 0;
+    display:block;
+}
+.mountaininf.selected{
+    background:#646557 url('/web/20101126010602im_/http://making-history.com/img/products/models/mountain_inf.gif') no-repeat 0 -61px;
+    display:block;
+}
+
+.mountedinf{
+    background:#646557 url('/web/20101126010602im_/http://making-history.com/img/products/models/mounted_inf.gif') no-repeat 0 0;
+    display:block;
+}
+.mountedinf.selected{
+    background:#646557 url('/web/20101126010602im_/http://making-history.com/img/products/models/mounted_inf.gif') no-repeat 0 -61px;
+    display:block;
+}
+
+.regularinf{
+    background:#646557 url('/web/20101126010602im_/http://making-history.com/img/products/models/regular_inf.gif') no-repeat 0 0;
+    display:block;
+}
+.regularinf.selected{
+    background:#646557 url('/web/20101126010602im_/http://making-history.com/img/products/models/regular_inf.gif') no-repeat 0 -61px;
+    display:block;
+}
+
+.battletank{
+    background:#646557 url('/web/20101126010602im_/http://making-history.com/img/products/models/battle_tanks.gif') no-repeat 0 0;
+    display:block;
+}
+.battletank.selected{
+    background:#646557 url('/web/20101126010602im_/http://making-history.com/img/products/models/battle_tanks.gif') no-repeat 0 -61px;
+    display:block;
+}
+
+.battletank2{
+    background:#646557 url('/web/20101126010602im_/http://making-history.com/img/products/models/battle_tanks2.gif') no-repeat 0 0;
+    display:block;
+}
+.battletank2.selected{
+    background:#646557 url('/web/20101126010602im_/http://making-history.com/img/products/models/battle_tanks2.gif') no-repeat 0 -61px;
+    display:block;
+}
+
+.basicfighters{
+    background:#646557 url('/web/20101126010602im_/http://making-history.com/img/products/models/basic_fighters.gif') no-repeat 0 0;
+    display:block;
+}
+.basicfighters.selected{
+    background:#646557 url('/web/20101126010602im_/http://making-history.com/img/products/models/basic_fighters.gif') no-repeat 0 -61px;
+    display:block;
+}
+
+#model{
+    width:756px;
+}
+#model .box_model{
+    background-color:#B2AC99;
+    line-height:0px;
+}
+
+#model .box_model img{
+    padding:10px;
+}
+
+#model .box_model .h3{
+    background:#646557 url('/web/20101126010602im_/http://making-history.com/img/products/models/hbg.jpg') no-repeat right;
+}
+
+#model .desc{
+    width:355px;
+    height:358px;
+    overflow:auto;
+    padding:10px 10px 10px 10px;
+    line-height:22px;
+    vertical-align:top;
+    color:#5a5338;
+    font-size:108%;
+}
+
+#model .desc h3{
+    margin:0px 0px 6px 0px;
+    font-size:123.1%;
+}
+
+#model a.decal{
+    width:52px;
+    height:52px;
+    float:left;
+    margin:10px;
+    display:block;
+}
+
+
+
+#model a.decal.selected#germany{
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/products/models/decals/germany_button.png') no-repeat 0 0;
+}
+#model a#germany{
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/products/models/decals/germany_button.png') no-repeat 0 -54px;
+}
+
+#model a.decal.selected#italy{
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/products/models/decals/italy_button.png') no-repeat 0 0;
+}
+#model a#italy{
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/products/models/decals/italy_button.png') no-repeat 0 -54px;
+}
+
+#model a.decal.selected#uk{
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/products/models/decals/uk_button.png') no-repeat 0 0;
+}
+#model a#uk{
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/products/models/decals/uk_button.png') no-repeat 0 -54px;
+}
+
+#model a.decal.selected#japan{
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/products/models/decals/japan_button.png') no-repeat 0 0;
+}
+#model a#japan{
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/products/models/decals/japan_button.png') no-repeat 0 -54px;
+}
+
+#model a.decal.selected#france{
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/products/models/decals/france_button.png') no-repeat 0 0;
+}
+#model a#france{
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/products/models/decals/france_button.png') no-repeat 0 -54px;
+}
+
+#model a.decal.selected#us{
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/products/models/decals/us_button.png') no-repeat 0 0;
+}
+#model a#us{
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/products/models/decals/us_button.png') no-repeat 0 -54px;
+}
+
+#model a.decal.selected#ussr{
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/products/models/decals/ussr_button.png') no-repeat 0 0;
+}
+#model a#ussr{
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/products/models/decals/ussr_button.png') no-repeat 0 -54px;
+}
+
+#model a.decal.selected#poland{
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/products/models/decals/poland_button.png') no-repeat 0 0;
+}
+#model a#poland{
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/products/models/decals/poland_button.png') no-repeat 0 -54px;
+}
+
+#model a.decal.selected#netherlands{
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/products/models/decals/netherlands_button.png') no-repeat 0 0;
+}
+#model a#netherlands{
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/products/models/decals/netherlands_button.png') no-repeat 0 -54px;
+}
+
+#model a.decal.selected#czechoslovakia{
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/products/models/decals/czech_button.png') no-repeat 0 0;
+}
+#model a#czechoslovakia{
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/products/models/decals/czech_button.png') no-repeat 0 -54px;
+}
+
+#model a.decal.selected#yugoslavia{
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/products/models/decals/yugoslavia_button.png') no-repeat 0 0;
+}
+#model a#yugoslavia{
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/products/models/decals/yugoslavia_button.png') no-repeat 0 -54px;
+}
+
+#model a.decal.selected#romania{
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/products/models/decals/romania_button.png') no-repeat 0 0;
+}
+#model a#romania{
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/products/models/decals/romania_button.png') no-repeat 0 -54px;
+}
+
+#model a.decal.selected#canada{
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/products/models/decals/canada_button.png') no-repeat 0 0;
+}
+#model a#canada{
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/products/models/decals/canada_button.png') no-repeat 0 -54px;
+}
+
+#model a.decal.selected#australia{
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/products/models/decals/australia_button.png') no-repeat 0 0;
+}
+#model a#australia{
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/products/models/decals/australia_button.png') no-repeat 0 -54px;
+}
+
+#model a.decal.selected#sweden{
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/products/models/decals/sweden_button.png') no-repeat 0 0;
+}
+#model a#sweden{
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/products/models/decals/sweden_button.png') no-repeat 0 -54px;
+}
+
+/*****************************/
+/*         Scenario          */
+/*****************************/
+#scenario_info{
+    background-color:#464539;
+    border:1px solid #B4B496;
+    
+    padding:10px 9px 10px 9px;
+    margin:0px 0px 20px 0px;
+}
+
+#scenario_info h1{
+    margin-bottom:10px;
+    font-size:138.5%;
+}
+
+#scenario_info .info{
+    height:100px;
+    margin-bottom:10px;
+}
+
+#scenario_info .info .icon{
+    margin-right:10px;
+}
+
+#scenario_info .info ul{
+    margin:0px;
+}
+
+#scenario_info .info ul li{
+    list-style:none;
+    margin-bottom:5px;
+    
+}
+
+#scenario_info div.desc{
+    float:left;
+    width:541px;
+    height:100%;
+    padding:0px 10px 0px 10px;
+    border-right:1px solid #B4B496;
+    font-size:108%;
+}
+
+.scenario_stats{
+    margin:7px;
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/scenario/divider.gif') center repeat-y;
+}
+
+.scenario_stats b{
+    font-size:174%;
+    margin-bottom:10px;
+}
+
+.scenario_stats em{
+    font-style:normal;
+    font-size:85%;
+    color:#A1A18B;
+}
+
+.scenario_stats h1{
+    font-size:131%;
+    font-weight:normal;
+    margin-bottom:5px;
+}
+
+.scenario_stats .stars{
+    margin-bottom:7px;
+}
+
+.scenario_stats .stars .star-rating{
+    margin:0 auto;
+}
+
+.scenario_stats .left{
+    float:left;
+    width:49%;
+    text-align:center;
+}
+
+.scenario_stats .right{
+    float:right;
+    width:50%;
+    text-align:center;
+}
+
+.revision{
+    margin:7px 7px 7px 7px;
+}
+
+div.scenario_tag{
+    margin-left:8px;
+    width:109px;
+    height:23px;
+}
+
+/* Making History 2 Scenario Tag*/
+div.scenario_tag a.mh2:link, div.scenario_tag a.mh2:visited, div.scenario_tag a.mh2:active{
+    background:transparent url("/web/20101126010602im_/http://making-history.com/img/scenario/mh2.gif") no-repeat 0px 0px;
+    width:109px;
+    height:23px;
+    display:block;
+}
+div.scenario_tag a.mh2:hover{
+    background:transparent url("/web/20101126010602im_/http://making-history.com/img/scenario/mh2.gif") no-repeat 0px -23px;
+    width:109px;
+    height:23px;
+    display:block;
+}
+
+/* Making History Gold Scenario Tag*/
+div.scenario_tag a.mh2:link, div.scenario_tag a.mh2:visited, div.scenario_tag a.mh2:active{
+    background:transparent url("/web/20101126010602im_/http://making-history.com/img/scenario/mh2.gif") no-repeat 0px 0px;
+    width:109px;
+    height:23px;
+    display:block;
+}
+div.scenario_tag a.mh2:hover{
+    background:transparent url("/web/20101126010602im_/http://making-history.com/img/scenario/mh2.gif") no-repeat 0px -23px;
+    width:109px;
+    height:23px;
+    display:block;
+}
+
+/* Making History Scenario Tag*/
+div.scenario_tag a.mh:link, div.scenario_tag a.mh:visited, div.scenario_tag a.mh:active{
+    background:transparent url("/web/20101126010602im_/http://making-history.com/img/scenario/mh.gif") no-repeat 0px 0px;
+    width:109px;
+    height:23px;
+    display:block;
+}
+divscenario_tag a.mh:hover{
+    background:transparent url("/web/20101126010602im_/http://making-history.com/img/scenario/mh.gif") no-repeat 0px -23px;
+    width:109px;
+    height:23px;
+    display:block;
+}
+
+/* Making History Gold Scenario Tag*/
+div.scenario_tag a.mhg:link, div.scenario_tag a.mhg:visited, div.scenario_tag a.mhg:active{
+    background:transparent url("/web/20101126010602im_/http://making-history.com/img/scenario/mhg.gif") no-repeat 0px 0px;
+    width:109px;
+    height:23px;
+    display:block;
+}
+div.scenario_tag a.mhg:hover{
+    background:transparent url("/web/20101126010602im_/http://making-history.com/img/scenario/mhg.gif") no-repeat 0px -23px;
+    width:109px;
+    height:23px;
+    display:block;
+}
+
+/* Download/Size */
+div.scenario div.size{
+    width:79px;
+    height:23px;
+    background:transparent url("/web/20101126010602im_/http://making-history.com/img/scenario/size_bg.gif") no-repeat 0px 0px;
+    padding:2px 0px 0px 35px;
+    margin:8px 0px 0px 8px;
+    font-size:14px;
+}
+
+div.scenario div.you_have{
+    width:79px;
+    height:23px;
+    background:transparent url("/web/20101126010602im_/http://making-history.com/img/scenario/you_have_bg.gif") no-repeat 0px 0px;
+    padding:2px 0px 0px 35px;
+    margin:8px 0px 0px 8px;
+    font-size:14px;
+}
+
+/* Scenario Play Buttons */
+div.scenario a.active_games:link, div.scenario a.active_games:visited, div.scenario a.active_games:active{
+    background:transparent url("/web/20101126010602im_/http://making-history.com/img/orange_btn.gif") no-repeat 0px 0px;
+    width:225px;
+    height:22px;
+    display:block;
+    font-size:14px;
+    color:#FFFFFF;
+    padding-top:3px;
+    text-align:center;
+}
+div.scenario a.active_games:hover{
+    background:transparent url("/web/20101126010602im_/http://making-history.com/img/orange_btn.gif") no-repeat 0px -25px;
+    width:225px;
+    height:22px;
+    display:block;
+    font-size:14px;
+    color:#FFFFFF;
+    padding-top:3px;
+    text-align:center;
+}
+
+div.scenario a.singleplayer:link, div.scenario a.singleplayer:visited, div.scenario a.singleplayer:active{
+    background:transparent url("/web/20101126010602im_/http://making-history.com/img/scenario/singleplayer_btn.gif") no-repeat 0px 0px;
+    width:110px;
+    height:22px;
+    display:block;
+    font-size:14px;
+    color:#FFFFFF;
+    padding-top:3px;
+    text-align:center;
+    margin-right:5px;
+    margin-top:5px;
+}
+div.scenario a.singleplayer:hover{
+    background:transparent url("/web/20101126010602im_/http://making-history.com/img/scenario/singleplayer_btn.gif") no-repeat 0px -25px;
+    width:110px;
+    height:22px;
+    display:block;
+    font-size:14px;
+    color:#FFFFFF;
+    padding-top:3px;
+    text-align:center;
+    margin-right:5px;
+    margin-top:5px;
+}
+
+div.scenario img.singleplayer{
+    margin-right:5px;
+    margin-top:5px;
+}
+
+div.scenario a.multiplayer:link, div.scenario a.multiplayer:visited, div.scenario a.multiplayer:active{
+    background:transparent url("/web/20101126010602im_/http://making-history.com/img/scenario/multiplayer_btn.gif") no-repeat 0px 0px;
+    width:110px;
+    height:22px;
+    display:block;
+    font-size:14px;
+    color:#FFFFFF;
+    padding-top:3px;
+    text-align:center;
+    margin-top:5px;
+}
+div.scenario a.multiplayer:hover{
+    background:transparent url("/web/20101126010602im_/http://making-history.com/img/scenario/multiplayer_btn.gif") no-repeat 0px -25px;
+    width:110px;
+    height:22px;
+    display:block;
+    font-size:14px;
+    color:#FFFFFF;
+    padding-top:3px;
+    text-align:center;
+    margin-top:5px;
+}
+
+div.scenario img.multiplayer{
+    margin-top:5px;
+    display:block;
+}
+
+div.scenario a.locked_login:link, div.scenario a.locked_login:visited, div.scenario a.locked_login:active{
+    background:transparent url("/web/20101126010602im_/http://making-history.com/img/scenario/lock_red.gif") no-repeat 0px 0px;
+    width:185px;
+    height:22px;
+    display:block;
+    font-size:14px;
+    color:#FFFFFF;
+    padding:3px 0px 0px 40px;
+}
+div.scenario a.locked_login:hover{
+    background:transparent url("/web/20101126010602im_/http://making-history.com/img/scenario/lock_red.gif") no-repeat 0px -25px;
+    width:185px;
+    height:22px;
+    display:block;
+    font-size:14px;
+    color:#FFFFFF;
+    padding:3px 0px 0px 40px;
+}
+
+div.scenario a.locked_purchase:link, div.scenario a.locked_purchase:visited, div.scenario a.locked_purchase:active{
+    background:transparent url("/web/20101126010602im_/http://making-history.com/img/scenario/lock_green.gif") no-repeat 0px 0px;
+    width:185px;
+    height:22px;
+    display:block;
+    font-size:14px;
+    color:#FFFFFF;
+    padding:3px 0px 0px 40px;
+}
+div.scenario a.locked_purchase:hover{
+    background:transparent url("/web/20101126010602im_/http://making-history.com/img/scenario/lock_green.gif") no-repeat 0px -25px;
+    width:185px;
+    height:22px;
+    display:block;
+    font-size:14px;
+    color:#FFFFFF;
+    padding:3px 0px 0px 40px;
+}
+
+
+div.scenario a.download:link, div.scenario a.download:visited, div.scenario a.download:active{
+    background:transparent url("/web/20101126010602im_/http://making-history.com/img/scenario/download_long.gif") no-repeat 0px 0px;
+    width:185px;
+    height:22px;
+    display:block;
+    font-size:14px;
+    color:#FFFFFF;
+    padding:3px 0px 0px 40px;
+}
+div.scenario a.download:hover{
+    background:transparent url("/web/20101126010602im_/http://making-history.com/img/scenario/download_long.gif") no-repeat 0px -25px;
+    width:185px;
+    height:22px;
+    display:block;
+    font-size:14px;
+    color:#FFFFFF;
+    padding:3px 0px 0px 40px;
+}
+
+div.scenario a.update:link, div.scenario a.update:visited, div.scenario a.update:active,
+div.row2 a.update:link, div.row2 a.update:visited, div.row2 a.update:active{
+    background:transparent url("/web/20101126010602im_/http://making-history.com/img/scenario/update.gif") no-repeat 0px 0px;
+    width:83px;
+    height:21px;
+    display:block;
+    font-size:14px;
+    color:#FFFFFF;
+}
+div.scenario a.update:hover,
+div.row2 a.update:hover{
+    background:transparent url("/web/20101126010602im_/http://making-history.com/img/scenario/update.gif") no-repeat 0px -21px;
+    width:83px;
+    height:21px;
+    display:block;
+    font-size:14px;
+    color:#FFFFFF;
+}
+div.row2 a.update{
+    margin-top:10px;
+}
+
+
+div.download_offset{
+    padding-top:30px;
+}
+
+div.scenario .stats .row{
+    font-size:16px;
+    margin:0px;
+    margin-top:15px;
+}
+
+div.scenario div.stats .row .left{
+    float:left;
+    color:#FFFFFF;
+}
+
+div.scenario div.stats .row .right{
+    float:right;
+}
+
+div.scenario div.archive h2{
+    font-size:123.1%;
+    font-weight:normal;
+    color:#666666;
+    padding:0px;
+    margin:0px;
+}
+
+/*****************************/
+/*      Scenario List        */
+/*****************************/
+div#scenarios div.title{
+    padding-bottom:10px;
+    border-bottom:1px solid #657054;
+    font-size:123.1%;
+    font-weight:bold;
+    height:18px;
+}
+
+div#scenarios div.mhg_row,
+div#scenarios div.mh_row,
+div#scenarios div.mh2_row,
+div#scenarios div.asset_row{
+    height:89px;
+    margin:10px 0px 30px 0px;
+}
+
+div#scenarios div.mhg_row img.icon,
+div#scenarios div.mh_row img.icon,
+div#scenarios div.mh2_row img.icon,
+div#scenarios div.asset_row img.icon{
+    padding:0px;
+    margin-right:10px;
+    margin-bottom:2px;
+}
+
+div#scenarios div.mhg_row .info h1,
+div#scenarios div.mh_row .info h1,
+div#scenarios div.mh2_row .info h1,
+div#scenarios div.asset_row .info h1{
+    font-size:16px;
+}
+
+div#scenarios div.mhg_row .info p,
+div#scenarios div.mh_row .info p,
+div#scenarios div.mh2_row .info p,
+div#scenarios div.asset_row .info p{
+    width:560px;
+    min-height:41px;
+    height:auto !important; /* because of ie6 */
+    height:41px; /* because of ie6 */
+    margin:3px 0px 5px 0px;
+    font-size:108%;
+}
+
+div#scenarios div.mhg_row .data,
+div#scenarios div.mh_row .data,
+div#scenarios div.asset_row .data{
+    width:549px;
+    height:20px;
+}
+
+div#scenarios div.mhg_row .data span.plays,
+div#scenarios div.mh_row .data span.plays,
+div#scenarios div.mh2_row .data span.plays,
+div#scenarios div.asset_row .data span.plays{
+    width:25%;
+    margin-right:10px;
+}
+
+div.mhg_row a.download:link, div.mhg_row a.download:visited, div.mhg_row a.download:active,
+div.mh_row a.download:link, div.mh_row a.download:visited, div.mh_row a.download:active,
+div.mh2_row a.download:link, div.mh2_row a.download:visited, div.mh2_row a.download:active,
+div.asset_row a.download:link, div.asset_row a.download:visited, div.asset_row a.download:active{
+    background:transparent url("/web/20101126010602im_/http://making-history.com/img/scenario/download.gif") no-repeat 0px 0px;
+    width:83px;
+    height:21px;
+    display:block;
+}
+div.mhg_row a.download:hover,
+div.mh_row a.download:hover,
+div.mh2_row a.download:hover,
+div.asset_row a.download:hover{
+    background:transparent url("/web/20101126010602im_/http://making-history.com/img/scenario/download.gif") no-repeat 0px -21px;
+    width:83px;
+    height:21px;
+    display:block;
+}
+
+div.mhg_row a.tag:link, div.mhg_row a.tag:visited, div.mhg_row a.tag:active,
+div.purchases a.mhg:link, div.purchases a.mhg:visited, div.purchases a.mhg:active,
+a.mhg:link, a.mhg:visited, a.mhg:active{
+    background:transparent url("/web/20101126010602im_/http://making-history.com/img/scenario/mhg_small.gif") no-repeat 0px 0px;
+    width:63px;
+    height:21px;
+    display:block;
+    font-size:14px;
+    color:#FFFFFF;
+}
+div.mhg_row a.tag:hover,
+div.purchases a.mhg:hover,
+a.mhg:hover{
+    background:transparent url("/web/20101126010602im_/http://making-history.com/img/scenario/mhg_small.gif") no-repeat 0px -21px;
+    width:63px;
+    height:21px;
+    display:block;
+    font-size:14px;
+    color:#FFFFFF;
+}
+
+div.mh2_row a.tag:link, div.mh2_row a.tag:visited, div.mh2_row a.tag:active,
+div.purchases a.mh2:link, div.purchases a.mh2:visited, div.purchases a.mh2:active,
+a.mh2:link, a.mh2:visited, a.mh2:active{
+    background:transparent url("/web/20101126010602im_/http://making-history.com/img/scenario/mh2_small.gif") no-repeat 0px 0px;
+    width:63px;
+    height:21px;
+    display:block;
+    font-size:14px;
+    color:#FFFFFF;
+}
+div.mh2_row a.tag:hover,
+div.purchases a.mh2:hover,
+a.mh2:hover{
+    background:transparent url("/web/20101126010602im_/http://making-history.com/img/scenario/mh2_small.gif") no-repeat 0px -21px;
+    width:63px;
+    height:21px;
+    display:block;
+    font-size:14px;
+    color:#FFFFFF;
+}
+
+div.mh_row a.tag:link, div.mh_row a.tag:visited, div.mh_row a.tag:active,
+div.purchases a.mh:link, div.purchases a.mh:visited, div.purchases a.mh:active,
+a.mh:link, a.mh:visited, a.mh:active{
+    background:transparent url("/web/20101126010602im_/http://making-history.com/img/scenario/mh_small.gif") no-repeat 0px 0px;
+    width:63px;
+    height:21px;
+    display:block;
+    font-size:14px;
+    color:#FFFFFF;
+}
+div.mh_row a.tag:hover,
+div.purchases a.mh:hover,
+a.mh:hover{
+    background:transparent url("/web/20101126010602im_/http://making-history.com/img/scenario/mh_small.gif") no-repeat 0px -21px;
+    width:63px;
+    height:21px;
+    display:block;
+    font-size:14px;
+    color:#FFFFFF;
+}
+
+div.purchases{
+    margin-bottom:20px;
+}
+
+div.purchases a{
+    margin-top:5px;
+    margin-right:10px;
+}
+
+a.single_small:link, a.single_small:visited, a.single_small:active{
+    background:transparent url("/web/20101126010602im_/http://making-history.com/img/scenario/singleplayer_btn_small.gif") no-repeat 0px 0px;
+    width:21px;
+    height:21px;
+    display:block;
+    font-size:14px;
+    color:#FFFFFF;
+    margin:0px 0px 0px 0px;
+}
+a.single_small:hover{
+    background:transparent url("/web/20101126010602im_/http://making-history.com/img/scenario/singleplayer_btn_small.gif") no-repeat 0px -21px;
+    width:21px;
+    height:21px;
+    display:block;
+    font-size:14px;
+    color:#FFFFFF;
+    margin:0px 0px 0px 0px;
+}
+
+a.multi_small:link, a.multi_small:visited, a.multi_small:active{
+    background:transparent url("/web/20101126010602im_/http://making-history.com/img/scenario/multiplayer_btn_small.gif") no-repeat 0px 0px;
+    width:21px;
+    height:21px;
+    display:block;
+    font-size:14px;
+    color:#FFFFFF;
+    margin:0px 5px 0px 10px;
+}
+a.multi_small:hover{
+    background:transparent url("/web/20101126010602im_/http://making-history.com/img/scenario/multiplayer_btn_small.gif") no-repeat 0px -21px;
+    width:21px;
+    height:21px;
+    display:block;
+    font-size:14px;
+    color:#FFFFFF;
+    margin:0px 5px 0px 10px;
+}
+
+div.most_played div.list{
+    padding:9px 9px 7px 9px;
+}
+
+div.developer_notes{
+    margin-bottom:20px;
+}
+
+div.developer_notes div.list{
+    border-bottom:1px solid #474D3F;    
+}
+
+/*****************************/
+/*         Players           */
+/*****************************/
+div.players{
+    border-bottom:1px solid #474D3F;
+    margin-bottom:20px;
+}
+
+div.players .list{
+    margin-bottom:0px;
+}
+
+div.players .list div.row{
+    padding:4px 10px 4px 0px;
+    border-bottom:1px solid #474D3F;
+    height:30px;
+}
+
+/*****************************/
+/*          Upload           */
+/*****************************/
+form#upload{
+    padding-right:15px;
+}
+
+form#upload label.radio{
+    margin:0px 25px 15px 0px;
+    display:block;
+    float:left;
+}
+
+form#upload label.radio input{
+    margin:0px 5px 0px 0px;
+}
+
+form#upload .options{
+    margin-top:10px
+}
+
+form#upload .type div.input, form#upload div.input{
+    margin:0px 0px 20px 0px;
+}
+
+form#upload .type label input{
+    margin:0px 15px 0px 0px;
+}
+
+form#upload div.type{
+    margin:0px 0px 10px 0px;
+}
+
+form#upload div.information .input{
+    margin-bottom:20px;
+}
+
+form#upload div.information textarea{
+    margin-top:10px;
+}
+
+.scenario_icon_select ul{
+    margin:10px;
+}
+
+.scenario_icon_select ul li{
+    list-style-type: none;
+    margin:0px 0px 12px 0px;
+}
+
+/*****************************/
+/*          Paging           */
+/*****************************/
+ul#paging{
+	padding:0px 0px 5px 0px;
+	margin:10px 0px 0px 0px;
+    float:left;
+}
+
+ul#paging li{
+	padding:2px;
+	margin:0px 13px 0px 0px;
+	display:inline;
+	list-style:none;
+	color:#999999;
+}
+
+ul#paging li.selected{
+	border-bottom:2px solid #FF9900;
+}
+
+/*****************************/
+/*         Comments          */
+/*****************************/
+textarea{
+    width:99%;
+    border:1px solid #8A8770;
+    background:#464539;
+    color:#FFFFFF;
+    padding:2px;
+    overflow:auto;
+}
+
+input[type="text"]{
+    border:1px solid #8A8770;
+    background:#464539;
+    padding:2px;
+    color:#FFFFFF;
+}
+
+/* Comments */
+div.comment{
+    padding-top:10px;
+    
+    border:1px solid #35342B;/*Because IE sucks*/
+    border-bottom:1px solid #8A8770;
+}
+
+div#comments{
+    margin:10px;
+}
+
+div#comments div.holder{
+    margin-bottom:10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:153.9%;
+    font-weight:normal;
+    color:#666666;
+}
+
+div.comment h4{
+    padding:0px 5px 5px 5px;
+    margin:0px;
+    font-weight:bold;
+}
+
+div.comment h4 img{
+    margin-right:7px;
+}
+
+div.comment span.date{
+    color:#999999;
+    font-size:85%;
+    font-weight:normal;
+}
+
+div.comment a.edit_comment, div.comment a.cancel_edit_comment{
+    padding:5px;
+    margin:0px;
+}
+
+div.comment .body{
+    
+    padding:5px;
+    vertical-align:top;
+    font-size:93%;
+    line-height:19px;
+}
+
+div.comments div.redacted, div.body div.c div.redacted{
+    display:none;
+}
+
+div.comments div.form{
+    margin:20px 0px 20px 0px;
+}
+
+span.expand_redacted{
+    background:transparent url("/web/20101126010602im_/http://making-history.com/img/comment_expand.gif") no-repeat;
+    height:11px;
+    width:11px;
+    display:block;
+    float:left;
+    margin:4px 7px 0px 0px;
+    cursor:pointer;
+}
+span.contract_redacted{
+    background:transparent url("/web/20101126010602im_/http://making-history.com/img/comment_expand.gif") no-repeat 0px -11px;
+    height:11px;
+    width:11px;
+    display:block;
+    float:left;
+    margin:4px 7px 0px 0px;
+    cursor:pointer;
+}
+
+div.comment div.body h4.error{
+    border-top:1px solid #A61400;
+    border-bottom:1px solid #A61400;
+    background-color:#F8D8D4;
+    color:#A61400;
+    margin-bottom:5px;
+}
+
+div#comments span.paging{
+    display:block;
+    background-color:#656557;
+    border:1px solid #8A8770;
+    width:100%;
+    padding:10px 0px 10px 0px;
+    font-size:14px;
+    color:#FFFFFF;
+    text-align:center;
+    margin:10px 0px 10px 0px;
+    cursor:pointer;
+}
+
+div#comments span.paging:hover{
+    background-color:#6D6D60;
+    text-decoration:underline;
+}
+
+#comments .comment .top{
+    font-weight:bold;
+    height:20px;
+    margin:4px 10px 0 40px;
+}
+
+#comments .comment .clip{
+    color:#FFFFFF;
+    margin:10px 0 0 40px;
+    text-align:left;
+}
+
+/*****************************/
+/*         Messages          */
+/*****************************/
+
+#conversations{
+}
+
+#conversations .conversation{
+    margin:0px 0px 5px 0px;
+    padding:6px;
+    background-color:#414036;
+    display:block;
+    vertical-align:top;
+}
+
+#conversations .conversation.unread{
+    background-color:#525145;
+}
+
+#conversations .conversation table,
+#conversations .conversation tr,
+#conversations .conversation td{
+    padding:0px;
+    margin:0px;
+    line-height:14px;
+}
+
+#conversations .conversation img{
+    margin-right:10px;
+}
+
+#conversations .conversation .user{
+    font-size:123.1%;
+}
+#conversations .conversation .date{
+    color:#FFAA1B;
+    text-align:right;
+    font-weight:bold;
+}
+#conversations .conversation .message{
+    color:#FFFFFF;
+    font-size:93%;
+    padding-top:3px;
+    line-height:17px;
+}
+
+#conversations a:hover{
+    background-color:#47463B;
+}
+
+#conversation .responce{
+    overflow:auto;
+    text-align:center;
+}
+
+#conversation #messages{
+    margin:10px 0px 0px 0px;
+}
+
+#conversation #messages .message{
+    margin:0px 0px 5px 0px;
+    padding:6px;
+    background-color:#414036;
+    display:block;
+    overflow:auto;
+    line-height:14px;
+}
+
+#conversation #messages .message .icon{
+    float:left;
+    margin:0px 10px 0px 0px;
+}
+
+#conversation #messages .message .date{
+    font-size:85%;
+    color:#cccccc;
+}
+
+#conversation #messages .message .text{
+    font-size:108%;
+    margin:0px 0px 0px 20px;
+    padding-top:3px;
+    line-height:19px;
+}
+
+#conversation #new_message .receiver{
+    width:99%;
+    margin:0px 0px 5px 0px;
+    font-size:108%;
+    height:20px;
+}
+#conversation #new_message .new{
+    width:99%;
+    margin:0px 0px 5px 0px;
+    font-size:123.1%;
+}
+
+/*****************************/
+/*         Friends           */
+/*****************************/
+
+#friends{
+    min-height:400px;
+}
+
+#friends .friend{
+    margin:0px 5px 5px 0px;
+    background-color:#414036;
+    padding:5px;
+    width:31.95%;
+    float:left;
+    
+}
+
+#friends a.brown_btn65{
+    margin-bottom:0;
+}
+
+#friends .friend.last{
+    margin:0px;
+}
+
+#friends .friend img{
+    margin:0px 10px 0px 0px;
+}
+
+#friends .friend h2{
+    font-size:138.5%;
+    font-weight:normal;
+    overflow:auto;
+}
+
+#friends .friend h2 a{
+    margin:0px;
+}
+
+#friends .friend .info{
+    margin:5px 0px 0px 0px;
+}
+
+#friend_requests .request{
+    background-color:#414036;
+    margin:0px 0px 5px 0px;
+    padding:5px;
+    overflow:auto;
+    width:48.25%;
+    float:left;
+}
+#friend_requests .request.odd{
+    margin-right:5px;
+}
+#friend_requests .request h2{
+    font-size:138.5%;
+    font-weight:normal;
+}
+#friend_requests .request .icon{
+    margin:0px 10px 0px 0px;
+    line-height:0px;
+}
+#friend_requests .request .info{
+    margin:5px 0px 0px 0px;
+}
+
+.friend_list{
+    overflow:auto;
+    margin:5px 5px 0px 5px;
+}
+
+.friend_list .friend{
+    overflow:auto;
+    background:#414036;
+    margin:0px 0px 5px 0px;
+    padding:5px;
+}
+
+.friend_list .friend img{
+    margin-right:10px;
+}
+
+.friend_list .friend h2{
+    font-size:138.1%;
+    margin:5px 5px 0px 0px;
+}
+
+/*****************************/
+/*                           */
+/*       Launch Page         */
+/*                           */
+/*****************************/
+
+h2.title{
+    font-size:123.1%;
+    color:#FFFFFF;
+    padding:0px 0px 7px 0px;
+    margin:0px;
+    font-weight:bold;
+    border-bottom:1px solid #464539;
+}
+
+div.window{
+    overflow:auto;
+    margin:0px 0px 20px 0px;
+}
+
+.lrow{
+    height:41px;
+    border-bottom:1px solid #464539;
+    vertical-align:middle;
+}
+
+.lrow a{
+    font-size:123.1%;
+}
+
+.lrow table{
+    margin:0;
+    padding:0;
+}
+
+.user_select{
+    width:215px;
+    height:47px;
+    padding:6px 0px 0px 6px;
+    margin:5px 5px 0px 0px;
+    float:left;
+    border:1px solid #666452;
+    cursor:pointer;
+    font-size:123.1%
+}
+
+.user_selected{
+    width:215px;
+    height:47px;
+    padding:6px 0px 0px 6px;
+    margin:5px 5px 0px 0px;
+    float:left;
+    border:1px solid #8A8770;
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/active_game/check.png') no-repeat 197px 17px;
+    cursor:pointer;
+    font-size:123.1%
+}
+
+.user_select input, .user_selected input{
+    display:none;
+}
+
+.user_select img, .user_selected img{
+    padding:0px 11px 0px 0px;
+}
+.user_selected div{
+    color:#FFAA1B;
+    margin:9px 0px 0px 0px;
+}
+.user_select div{
+    color:#FFFFFF;
+    margin:9px 0px 0px 0px;
+}
+
+/*****************************/
+/*         Store             */
+/*****************************/
+.sku{
+    width:48%;
+    height:85px;
+    margin:15px 15px 0px 0px;
+    float:left;
+}
+
+.sku h1{
+    font-size:138.5%;
+    font-weight:normal;
+    margin:10px 0px 17px 0px;
+}
+
+.store_mhii{
+    background:transparent url('/web/20101126010602im_/http://making-history.com/img/store/mh_complete_collection.jpg');
+    width:972px;
+    height:134px;
+}
+
+/*Markdown Front Page*/
+
+.mdf h1,
+.md h1 {
+	/*18px via YUI Fonts CSS foundation*/
+	font-size:138.5%;  
+}
+.mdf h2,
+.md h2 {
+	/*16px via YUI Fonts CSS foundation*/
+	font-size:123.1%; 
+}
+.mdf h3,
+.md h3 {
+	/*14px via YUI Fonts CSS foundation*/
+	font-size:108%;  
+}
+.mdf h1,.mdf h2,.mdf h3,
+.md h1,.md h2,.md h3 {
+	/* top & bottom margin based on font size */
+	margin:1em 0;
+}
+.mdf h1,.mdf h2,.mdf h3,.mdf h4,.mdf h5,.mdf h6,strong,
+.md h1,.md h2,.md h3,.md h4,.md h5,.md h6,strong{
+	/*bringing boldness back to headers and the strong element*/
+	font-weight:bold;
+    color:inherit;
+}
+.mdf abbr,.mdf acronym,
+.md abbr,.md acronym{
+	/*indicating to users that more info is available */
+	border-bottom:1px dotted #000;
+	cursor:help;
+}
+.mdf em,
+.md em{
+	/*bringing italics back to the em element*/
+	font-style:italic;
+}
+.mdf blockquote,.mdf ul,.mdf ol,.mdf dl,
+.md blockquote,.md ul,.md ol,.md dl{
+	/*giving blockquotes and lists room to breath*/
+	margin:1em;
+}
+.mdf ol,.mdf ul,.mdf dl
+.md ol,.md ul,.md dl{
+	/*bringing lists on to the page with breathing room */
+	margin-left:2em;
+}
+.mdf ol li,
+.md ol li{
+	/*giving OL's LIs generated numbers*/
+	list-style: decimal outside;	
+}
+.mdf ul li,
+.md ul li {
+	/*giving UL's LIs generated disc markers*/
+	list-style: disc outside;
+}
+.mdf dl dd,
+.md dl dd{
+	/*giving UL's LIs generated numbers*/
+	margin-left:1em;
+}
+.mdf th,.mdf td,
+.md th,.mdf td{
+	/*borders and padding to make the table readable*/
+	border:1px solid #000;
+	padding:.5em;
+}
+.mdf th,
+.md th{
+	/*distinguishing table headers from data cells*/
+	font-weight:bold;
+	text-align:center;
+}
+.mdf caption,
+.md caption{
+	/*coordinated margin to match cell's padding*/
+	margin-bottom:.5em;
+	/*centered so it doesn't blend in to other content*/
+	text-align:center;
+}
+.mdf p,.mdf fieldset,.mdf table,.mdf pre,
+.md p,.md fieldset,.md table,.md pre{
+	/*so things don't run into each other*/
+	margin-bottom:1em;
+}
+
+.mdf blockquote{
+    border-left:2px solid #669933;
+    padding-left:10px;
+}
+.md blockquote{
+    border-left:2px solid #669933;
+    padding-left:10px;
+    color:#cccccc;
+}
+/* setting a consistent width, 160px; 
+   control of type=file still not possible */
+.mdf input[type=text],.mdf input[type=password],.mdf textarea{width:12.25em;*width:11.9em;}
+
+.mdf img{
+    display:none;
+    cursor:default
+}
+.md .sig{
+    color:#999999;
+    font-size:85%;
+}
+/*
+     FILE ARCHIVED ON 01:06:02 Nov 26, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:24:48 Oct 01, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 52.16 (3)
+  esindex: 0.008
+  captures_list: 80.109
+  CDXLines.iter: 16.823 (3)
+  PetaboxLoader3.datanode: 58.454 (4)
+  exclusion.robots: 0.231
+  exclusion.robots.policy: 0.213
+  RedisCDXSource: 2.303
+  PetaboxLoader3.resolve: 29.561
+  load_resource: 66.04
+*/
